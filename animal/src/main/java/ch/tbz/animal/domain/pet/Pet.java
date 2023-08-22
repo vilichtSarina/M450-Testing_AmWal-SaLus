@@ -6,8 +6,6 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.JoinTable;
 import jakarta.persistence.OneToOne;
-import lombok.Getter;
-import org.antlr.v4.runtime.misc.NotNull;
 
 import java.util.UUID;
 
@@ -17,7 +15,7 @@ public class Pet extends AbstractEntity {
     @Column(name = "name")
     private String name;
 
-    @JoinTable(name = "food_stat")
+    @JoinTable(name = "food_time")
     @OneToOne
     private Food food;
 
