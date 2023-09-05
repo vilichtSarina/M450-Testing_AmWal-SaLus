@@ -12,7 +12,7 @@ import java.util.stream.Stream;
 
 @SpringBootApplication
 @Slf4j
-public class StudentApplication {
+public class     StudentApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(StudentApplication.class, args);
