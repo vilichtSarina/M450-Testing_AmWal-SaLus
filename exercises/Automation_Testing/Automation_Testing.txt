@@ -1,0 +1,30 @@
+# Automation Testing
+## Automation Testing vs Manual Testing
+- Beim manual Testing kann ein Mensch fehler machen, beim Automation Testing passiert dies nicht, da alle Tests programmiert sind.
+- Manual Testing sind kurzfristg günstiger, da man keine Tests schreiben muss, aber langfristig ist es teurer
+- Automation Testing wird verwendet bei Tests die oft wiederholt werden, da es sich dort lohnt einen Test zu programmieren.
+- Automation Tests können durch einen Knopfdruck ausgelöst und durchgeführt werden (wenn der Code bereits geschrieben ist).
+- Black Box Testing oder exploratives Testing ist nur beim Manual Testing möglich
+- Performance Tests sind nur beim Automation Testing möglich
+- Mehrere Automation Tests können einfach gleichzeitig ausgeführt werden
+- Beim Automation Testing braucht man gewisse Skills, um den Test schreiben zu können
+
+
+## Wichtige Punkte Automation Testing
+- Verwendung für: Effizienz, Test Coverage und Ausführungsdauer
+- Am besten manual testing und automation Testing aufeinander abstimmen
+- Test Prozesse definieren
+- Gute Testing Tools und ein gutes Testing Team
+
+## Schritte zum Aufsetzen des Testings
+- Tool auswählen
+- Anwendungsbereich der Automation definieren
+- Test Cases: planen, definieren und implementieren
+- Tests ausführen
+- Tests warten (Maintenance)
+
+## Typen von Testing
+- Functional Testing: Macht eine Komponente das, was sie soll?
+- Non-functional Testing: Aspekte die nicht mit einer bestimmten Funktion zusammenhängen z.B. Stress Tests
+- Smoke Testing: Tests für das essenzielle des Codes, das er braucht um grundsätzlich zu laufen
+- Regression Testing: Nachdem grosse Veränderungen im Code gemacht werden, werden diese Tests gemacht, um unbeabsichtigte änderungen/Errors zu erkennen
