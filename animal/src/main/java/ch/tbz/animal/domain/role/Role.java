@@ -1,13 +1,16 @@
 package ch.tbz.animal.domain.role;
 
 import ch.tbz.animal.core.generic.AbstractEntity;
-import ch.tbz.animal.domain.Authority;
+import ch.tbz.animal.domain.authority.Authority;
 import jakarta.persistence.*;
+import lombok.Data;
 
 import java.util.HashSet;
 import java.util.Set;
 import java.util.UUID;
 
+@Data
+@Entity
 public class Role extends AbstractEntity {
     @Column(name = "name", nullable = false, unique = true)
     private String name;

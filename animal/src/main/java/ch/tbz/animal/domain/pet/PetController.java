@@ -24,7 +24,7 @@ public class PetController {
     }
 
     @PostMapping({"/", ""})
-    public ResponseEntity<Pet> createImagePost(@RequestBody Pet pet) {
+    public ResponseEntity<Pet> postPet(@RequestBody Pet pet) {
         petService.createPet(pet);
         return new ResponseEntity<>(pet, HttpStatus.CREATED);
     }

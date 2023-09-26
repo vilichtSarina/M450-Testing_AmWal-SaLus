@@ -1,4 +1,4 @@
-package ch.tbz.animal.domain;
+package ch.tbz.animal.domain.authority;
 
 import ch.tbz.animal.core.generic.AbstractEntity;
 import jakarta.persistence.Column;
