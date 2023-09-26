@@ -25,3 +25,6 @@ Man kann Test zu verschiedenen Zeitpunkten ausführen
 - Testing Tactics sind konkrete Schritte während der Testdurchführung.
 
 Diese Begriffe sind miteinander verbunden: Der gewählte Testing Approach beeinflusst die Auswahl der Testing Levels und Types, während Techniques und Tactics auf der Ebene der Testing Types angewendet werden, um Tests durchzuführen. Zusammen stellen sie sicher, dass Software qualitativ hochwertig und den Anforderungen entspricht.
+
+## Gradle Projekt im cmd laufen lassen
+./gradlew test
