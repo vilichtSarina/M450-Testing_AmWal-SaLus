@@ -38,12 +38,12 @@ public class UserServiceImpl extends AbstractServiceImpl<User> implements UserSe
      * If no User is found, an exception is thrown.
      */
     @Override
-    public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
-        log.info("Trying to load user with email: " + email);
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+        log.info("Trying to load user with email: " + username);
 
-        return ((UserRepository) repository).findByEmail(email)
+        return ((UserRepository) repository).findByUsername(username)
                 .map(UserDetailsImpl::new)
-                .orElseThrow(() -> new UsernameNotFoundException(email));
+                .orElseThrow(() -> new UsernameNotFoundException(username));
     }
 
     /**
