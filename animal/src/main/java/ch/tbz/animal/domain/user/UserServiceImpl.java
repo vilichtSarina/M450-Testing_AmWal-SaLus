@@ -97,9 +97,10 @@ public class UserServiceImpl extends AbstractServiceImpl<User> implements UserSe
         return userRepository.findById(userId).orElseThrow(NoSuchElementException::new);
     }
 
+
     @Override
     public void deleteUserById(UUID userId) {
-
+        userRepository.deleteById(userId);
     }
 
     @Override
