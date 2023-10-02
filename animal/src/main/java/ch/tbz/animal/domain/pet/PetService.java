@@ -5,6 +5,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 
+import java.util.NoSuchElementException;
 import java.util.UUID;
 
 @Service
@@ -28,5 +29,12 @@ public class PetService {
     public Pet createPet(Pet pet) {
         petRepository.save(pet);
         return pet;
+    }
+
+    public Pet updatePetById(UUID id, Pet pet) {
+        if (!petRepository.existsById(id)) {
+            throw new NoSuchElementException("Pet with id " + id + " does not exist.");
+        }
+        return petRepository.save(pet);
     }
 }
