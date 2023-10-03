@@ -10,6 +10,7 @@ import java.util.Set;
 import java.util.UUID;
 
 @Data
+@Table(name = "role")
 @Entity
 public class Role extends AbstractEntity {
     @Column(name = "name", nullable = false, unique = true)
