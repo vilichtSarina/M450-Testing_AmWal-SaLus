@@ -1,0 +1,10 @@
+.button-container {
+  padding-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.action-button {
+  margin-top: 10px !important;
+  width: 100%;
+}
