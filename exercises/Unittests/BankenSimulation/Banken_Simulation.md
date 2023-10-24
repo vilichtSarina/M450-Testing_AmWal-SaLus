@@ -30,4 +30,3 @@ To see the code coverage:
 - at the top of the page at Run decide run all in Bank with Coverage
 - open the correct folder
 ![img.png](img.png)
-
