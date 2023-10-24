@@ -8,18 +8,13 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * Tests der Klasse SalaryAccount.
- *
- * @author XXX
- * @version 1.1
  */
 public class SalaryAccountTests
 {
-	/**
-	 * Der Test.
-	 */
 	@Test
-	public void test()
-	{
-		fail("toDo");
+	void testWithdraw() {
+		SalaryAccount account = new SalaryAccount("12345", -1000);
+		account.deposit(20231024, 2000);
+		assertTrue(account.withdraw(20231025, 500));
 	}
 }

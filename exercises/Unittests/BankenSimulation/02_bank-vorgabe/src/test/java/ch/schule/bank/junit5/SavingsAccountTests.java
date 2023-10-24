@@ -1,33 +1,27 @@
 package ch.schule.bank.junit5;
 
 import ch.schule.SavingsAccount;
-
-
-
-/**
- * Tests f�r die Klasse SavingsAccount.
- *
- * @author Roger H. J&ouml;rg
- * @version 1.0
- */
-
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 
 /**
- * Tests für die Klasse SavingsAccount.
- *
- * @author XXX
- * @version 1.0
+ * Tests fuer die Klasse SavingsAccount.
  */
-public class SavingsAccountTests
-{
+public class SavingsAccountTests {
+
 	@Test
-	public void test()
-	{
-		fail("toDo");
+	void testWithdrawSufficientFunds() {
+		SavingsAccount account = new SavingsAccount("12345");
+		account.deposit(20231024, 2000);
+		assertTrue(account.withdraw(20231025, 500));
+	}
+
+	@Test
+	void testWithdrawInsufficientFunds() {
+		SavingsAccount account = new SavingsAccount("12345");
+		account.deposit(20231024, 2000);
+		assertFalse(account.withdraw(20231025, 3000));
 	}
 }
 

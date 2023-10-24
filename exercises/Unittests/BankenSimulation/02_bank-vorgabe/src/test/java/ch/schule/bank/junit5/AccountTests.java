@@ -5,11 +5,9 @@ import ch.schule.SalaryAccount;
 import ch.schule.SavingsAccount;
 import org.junit.jupiter.api.Test;
 
-
 import java.util.TreeMap;
 
 import static org.junit.jupiter.api.Assertions.*;
-
 
 /**
  * Tests für die Klasse Account.
@@ -18,13 +16,15 @@ import static org.junit.jupiter.api.Assertions.*;
  * @version 1.0
  */
 public class AccountTests {
+
     /**
      * Tested die Initialisierung eines Kontos.
      */
     @Test
     public void testInit() {
-
-        fail("toDo");
+        Account account = new Account("12345");
+        assertNotNull(account);
+        assertEquals("12345", account.getId());
     }
 
     /**
@@ -32,7 +32,9 @@ public class AccountTests {
      */
     @Test
     public void testDeposit() {
-        fail("toDo");
+        Account account = new Account("12345");
+        assertTrue(account.deposit(20231024, 1000));
+        assertEquals(1000, account.getBalance());
     }
 
     /**
@@ -40,7 +42,10 @@ public class AccountTests {
      */
     @Test
     public void testWithdraw() {
-        fail("toDo");
+        Account account = new Account("12345");
+        account.deposit(20231024, 1000);
+        assertTrue(account.withdraw(20231025, 500));
+        assertEquals(500, account.getBalance());
     }
 
     /**
@@ -48,7 +53,10 @@ public class AccountTests {
      */
     @Test
     public void testReferences() {
-        fail("toDo");
+        SavingsAccount savingsAccount = new SavingsAccount("54321");
+        Account account = savingsAccount;
+        assertNotNull(account);
+        assertTrue(account instanceof SavingsAccount);
     }
 
     /**
@@ -56,7 +64,8 @@ public class AccountTests {
      */
     @Test
     public void testCanTransact() {
-        fail("toDo");
+        Account account = new Account("12345");
+        assertTrue(account.canTransact(20231024));
     }
 
     /**
@@ -64,7 +73,10 @@ public class AccountTests {
      */
     @Test
     public void testPrint() {
-        fail("toDo");
+        Account account = new Account("12345");
+        account.deposit(20231024, 1000);
+        account.withdraw(20231025, 500);
+        account.print();
     }
 
     /**
@@ -72,7 +84,10 @@ public class AccountTests {
      */
     @Test
     public void testMonthlyPrint() {
-        fail("toDo");
+        Account account = new Account("12345");
+        account.deposit(20231024, 1000);
+        account.withdraw(20231025, 500);
+        account.print(2023, 10);
     }
 
 }

@@ -5,12 +5,8 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-
 /**
- * Tests f�r die Klasse 'Bank'.
- *
- * @author xxxx
- * @version 1.0
+ * Tests für die Klasse 'Bank'.
  */
 public class BankTests {
     /**
@@ -18,22 +14,33 @@ public class BankTests {
      */
     @Test
     public void testCreate() {
-
-        fail("toDo");
+        Bank bank = new Bank();
+        assertNotNull(bank.createSavingsAccount());
+        assertNotNull(bank.createPromoYouthSavingsAccount());
+        assertNotNull(bank.createSalaryAccount(-1000));
     }
+
     /**
      * Testet das Einzahlen auf ein Konto.
      */
     @Test
     public void testDeposit() {
-        fail("toDo");
+        Bank bank = new Bank();
+        String accountId = bank.createSavingsAccount();
+        assertTrue(bank.deposit(accountId, 20231024, 1000));
+        assertEquals(1000, bank.getBalance(accountId));
     }
+
     /**
      * Testet das Abheben von einem Konto.
      */
     @Test
     public void testWithdraw() {
-        fail("toDo");
+        Bank bank = new Bank();
+        String accountId = bank.createSavingsAccount();
+        bank.deposit(accountId, 20231024, 1000);
+        assertTrue(bank.withdraw(accountId, 20231025, 500));
+        assertEquals(500, bank.getBalance(accountId));
     }
 
     /**
@@ -41,7 +48,11 @@ public class BankTests {
      */
     @Test
     public void testPrint() {
-        fail("toDo");
+        Bank bank = new Bank();
+        String accountId = bank.createSavingsAccount();
+        bank.deposit(accountId, 20231024, 1000);
+        bank.print(accountId);
+        // Check if print method runs without errors
     }
 
     /**
@@ -49,7 +60,11 @@ public class BankTests {
      */
     @Test
     public void testMonthlyPrint() {
-        fail("toDo");
+        Bank bank = new Bank();
+        String accountId = bank.createSavingsAccount();
+        bank.deposit(accountId, 20231024, 1000);
+        bank.print(accountId, 2023, 10);
+        // Check if print monthly method runs without errors
     }
 
     /**
@@ -57,23 +72,38 @@ public class BankTests {
      */
     @Test
     public void testBalance() {
-        fail("toDo");
+        Bank bank = new Bank();
+        bank.createSavingsAccount();
+        bank.createPromoYouthSavingsAccount();
+        bank.createSalaryAccount(-500);
+        assertEquals(0, bank.getBalance());
     }
 
     /**
-     * Tested die Ausgabe der "top 5" konten.
+     * Tested die Ausgabe der "top 5" Konten.
      */
     @Test
     public void testTop5() {
-        fail("toDo");
+        Bank bank = new Bank();
+        for (int i = 0; i < 6; i++) {
+            String accountId = bank.createSavingsAccount();
+            bank.deposit(accountId, 20231024, i * 1000);
+        }
+        bank.printTop5();
+        // Check if printTop5 method runs without errors
     }
 
     /**
-     * Tested die Ausgabe der "top 5" konten.
+     * Tested die Ausgabe der "bottom 5" Konten.
      */
     @Test
     public void testBottom5() {
-        fail("toDo");
+        Bank bank = new Bank();
+        for (int i = 0; i < 6; i++) {
+            String accountId = bank.createSavingsAccount();
+            bank.deposit(accountId, 20231024, i * 1000);
+        }
+        bank.printBottom5();
+        // Check if printBottom5 method runs without errors
     }
-
 }

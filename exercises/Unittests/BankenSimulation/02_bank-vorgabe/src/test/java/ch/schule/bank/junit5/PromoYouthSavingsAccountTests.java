@@ -2,24 +2,15 @@ package ch.schule.bank.junit5;
 
 import ch.schule.PromoYouthSavingsAccount;
 import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.fail;
+class PromoYouthSavingsAccountTest {
 
-/**
- * Tests für das Promo-Jugend-Sparkonto.
- *
- * @author XXXX
- * @version 1.0
- */
-public class PromoYouthSavingsAccountTests
-{
-	/**
-	 * Der Test.
-	 */
 	@Test
-	public void test()
-	{
-		fail("toDo");
+	void testDeposit() {
+		PromoYouthSavingsAccount account = new PromoYouthSavingsAccount("12345");
+		assertTrue(account.deposit(20231024, 1000));
+		assertEquals(1010, account.getBalance());
 	}
 }
+

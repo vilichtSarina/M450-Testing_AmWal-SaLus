@@ -7,7 +7,7 @@ import java.util.*;
  * @author  Roger H. J&ouml;rg
  * @version  1.0
  */
-public abstract class Account
+public class Account
 {
 	/**
 	 * Die Kontonummer (kann auch Buchstaben und Sonderzeichen enthalten).
