@@ -1,5 +1,8 @@
 package ch.tbz.animal.domain.pet;
 
+import ch.tbz.animal.core.generic.AbstractEntity;
+import ch.tbz.animal.core.generic.AbstractRepository;
+import ch.tbz.animal.core.generic.AbstractServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
@@ -9,12 +12,14 @@ import java.util.NoSuchElementException;
 import java.util.UUID;
 
 @Service
-public class PetService {
+public class PetService{ //everything went down because I added: extends AbstractEntity
 
     private final PetRepository petRepository;
+   // protected final AbstractRepository<T extends AbstractEntity> repository;
 
     @Autowired
     public PetService(PetRepository petRepository) {
+       // super(repository);
         this.petRepository = petRepository;
     }
 
