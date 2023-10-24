@@ -2,7 +2,7 @@ package ch.bbw.addressbook;
 
 import java.util.List;
 
-public interface AddressDAO {
+public interface AddressRepository extends JPA{
 
 	// for testing
 	public boolean isAvailable();

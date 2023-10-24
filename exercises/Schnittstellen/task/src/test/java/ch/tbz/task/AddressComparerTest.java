@@ -1,5 +1,7 @@
-package ch.tbz.addressbook;
+package ch.tbz.task;
 
+import ch.tbz.task.address.Address;
+import ch.tbz.task.address.AddressComparator;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.test.context.junit.jupiter.SpringExtension;

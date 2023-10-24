@@ -21,6 +21,14 @@ public class AddressViewController {
     	message = "";
 	}
 
+    public AddressViewController(AddressService addressService, String firstname, String lastname, String phoneNumber, String message) {
+        this.addressService = addressService;
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.phoneNumber = phoneNumber;
+        this.message = message;
+    }
+
     private void clearFields() {
         firstname = "";
         lastname = "";

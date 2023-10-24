@@ -26,6 +26,9 @@ Diese kann man Grundsätzlich in zwei Überkategorien einteilen:
 - Versuchen Sie den Service zu testen indem Sie AddressDAO mit @mock Annotieren
 - Testen Sie ob die Comparator Klasse korrekt sortiert
 
+
+
+
 ## Übung 2
 
 - Testen Sie den Service zusätzlich mit einer eigenen Mockup Implementation welche AddressDAO implementiert

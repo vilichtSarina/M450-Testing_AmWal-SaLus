@@ -1,4 +1,4 @@
-package ch.tbz.addressbook;
+package ch.tbz.task.address;
 
 import java.util.Comparator;
 
