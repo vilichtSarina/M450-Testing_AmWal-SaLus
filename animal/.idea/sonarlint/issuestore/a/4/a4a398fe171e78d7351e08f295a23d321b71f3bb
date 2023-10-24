@@ -1,0 +1,5 @@
+
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÞå×
+l	java:S116"WRename this field "last_updated" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö Â™
+P
+java:S1128"3Remove this unused import 'jakarta.persistence.Id'.(š¨ô 8öˆâ¤¯1

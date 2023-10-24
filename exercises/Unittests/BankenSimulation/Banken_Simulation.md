@@ -22,3 +22,12 @@
 
 ## To run the code in cmd
 ./mvnw spring-boot:run -e
+
+## Coding Exercise -> Code Coverage
+To see the code coverage:
+- right click on ch.schule.bank.junit5
+- run tests in that package 
+- at the top of the page at Run decide run all in Bank with Coverage
+- open the correct folder
+![img.png](img.png)
+
