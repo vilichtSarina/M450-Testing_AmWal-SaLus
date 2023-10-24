@@ -1,0 +1,14 @@
+
+W
+java:S1874"BRemove this use of "EnableGlobalMethodSecurity"; it is deprecated.(ùÊœX
+[
+java:S1128
+"@Remove this unused import 'org.springframework.http.HttpMethod'.(Ê¨Ä¡øÿÿÿÿ
+v
+java:S1128"[Remove this unused import 'org.springframework.security.config.http.SessionCreationPolicy'.(‚ÌÎîüÿÿÿÿ
+‡
+java:S1128"qRemove this unused import 'org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter'.(÷ìïŠ
+v
+java:S1128"`Remove this unused import 'org.springframework.security.web.util.matcher.AntPathRequestMatcher'.(¼¸öŽ
+G
+java:S1068 "1Remove this unused "jwtProperties" private field.(Å–Ê²

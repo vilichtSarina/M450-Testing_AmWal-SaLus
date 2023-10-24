@@ -1,0 +1,18 @@
+
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ÈèÚşÿÿÿÿ
+l	java:S116"WRename this field "last_updated" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö Â™
+U
+java:S1128"9Remove this unused import 'ch.tbz.animal.domain.pet.Pet'.(Ô·º-8Š¬ß¤¯1
+]
+java:S1128";Remove this unused import 'ch.tbz.animal.domain.role.Role'.(¬şúÕùÿÿÿÿ8Š¬ß¤¯1
+^
+java:S1128	"ARemove this unused import 'org.springframework.cglib.core.Local'.(ÁÒû8Š¬ß¤¯1
+`
+java:S1128
+"CRemove this unused import 'org.springframework.stereotype.Service'.(¼º¡Ú8Š¬ß¤¯1
+H
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8Š¬ß¤¯1
+J
+java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX8Š¬ß¤¯1
+L
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8Š¬ß¤¯1
