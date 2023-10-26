@@ -16,6 +16,7 @@ public class MenuPanel extends JPanel implements ActionListener {
     private MainFrame main;
 
     private JButton fractalButton = new JButton();
+    private JButton customGraph = new JButton();
     private JButton exitAndSave = new JButton("Save & Quit");
 
     public MenuPanel(int stdWidth, int stdHeight, MainFrame main) {
@@ -36,6 +37,12 @@ public class MenuPanel extends JPanel implements ActionListener {
         gbc.gridy = 8;
         gbc.gridwidth = 10;
         this.add(fractalButton, gbc);
+
+        gbc.fill = GridBagConstraints.HORIZONTAL;
+        gbc.gridx = 0;
+        gbc.gridy = 9;
+        gbc.gridwidth = 10;
+        this.add(customGraph, gbc);
 
         gbc.fill = GridBagConstraints.HORIZONTAL;
         gbc.gridx = 0;
@@ -60,6 +67,11 @@ public class MenuPanel extends JPanel implements ActionListener {
         fractalButton.setText("Plot Fractal");
         fractalButton.setVisible(true);
         fractalButton.addActionListener(this);
+
+        customGraph.setPreferredSize(new Dimension(500, 600));
+        customGraph.setText("Enter Custom Graph");
+        customGraph.setVisible(true);
+        customGraph.addActionListener(this);
     }
 
     /**
@@ -72,6 +84,9 @@ public class MenuPanel extends JPanel implements ActionListener {
         if (e.getSource() == fractalButton) {
             main.getContentPane().removeAll();
             main.getContentPane().add(new FractalMenu(stdWidth, stdHeight, main));
+        } else if (e.getSource() == customGraph) {
+            main.getContentPane().removeAll();
+            main.getContentPane().add(new GraphInputMenu(stdWidth, stdHeight, main));
         } else if (e.getSource() == exitAndSave) {
             System.exit(0);
         }
