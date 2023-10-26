@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0c4875b6-bfad-47ef-887c-ca5539b0d32d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/Starter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/fractal/Fractal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/fractal/FractalRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/fractal/set/BurningShip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/fractal/set/InverseMultibrot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/fractal/set/JuliaSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/fractal/set/MandelbrotSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/fractal/set/MultibrotSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/fractal/set/TricornSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/menu/FractalMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/menu/MainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/menu/MenuPanel.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="20dtLU9zFmjGVvdc7a3eIjUcACO" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/TBZ/M450/M450-Testing_AmWal-SaLus/exercises/Schnittstellen/02_5_Addressbook_testing_vorgabe&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;091ae889769ca2986a0bcecaa42a479e&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/ch/bbw/addressbook" />
+      <recent name="$PROJECT_DIR$/src/main/java/ch/bbw/addressbook" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AddressbookApplicationTests">
+    <configuration name="AddressbookApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="addressbook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.bbw.addressbook.AddressRepository" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.bbw.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="ch.bbw.addressbook.AddressbookApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddressbookApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="addressbook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.bbw.addressbook.AddressRepository" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.bbw.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="ch.bbw.addressbook.AddressbookApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAddressNew.testConstructor1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="addressbook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.bbw.addressbook.AddressRepository" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.bbw.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="ch.bbw.addressbook.TestAddressNew" />
+      <option name="METHOD_NAME" value="testConstructor1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAddress.testConstructor1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="addressbook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.bbw.addressbook.AddressRepository" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.bbw.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="ch.bbw.addressbook.TestAddress" />
+      <option name="METHOD_NAME" value="testConstructor1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestService.testSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="addressbook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.bbw.addressbook.AddressRepository" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.bbw.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="ch.bbw.addressbook.TestService" />
+      <option name="METHOD_NAME" value="testSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddressbookApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="02_5_Addressbook_testing_vorgabe" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ch.bbw.addressbook.AddressbookApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddressbookApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="addressbook" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ch.bbw.addressbook.AddressbookApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AddressbookApplicationTests" />
+        <item itemvalue="JUnit.AddressbookApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.TestAddressNew.testConstructor1" />
+        <item itemvalue="JUnit.TestAddress.testConstructor1" />
+        <item itemvalue="JUnit.TestService.testSort" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c4875b6-bfad-47ef-887c-ca5539b0d32d" name="Changes" comment="" />
+      <created>1636386237917</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636386237917</updated>
+      <workItem from="1636386241004" duration="790000" />
+      <workItem from="1636970208938" duration="56000" />
+      <workItem from="1637581348110" duration="825000" />
+      <workItem from="1637594288887" duration="1021000" />
+      <workItem from="1691934612981" duration="1239000" />
+      <workItem from="1693328100170" duration="966000" />
+      <workItem from="1694456593024" duration="33000" />
+      <workItem from="1696316526923" duration="1941000" />
+      <workItem from="1698130100440" duration="109000" />
+      <workItem from="1698130216354" duration="5083000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
