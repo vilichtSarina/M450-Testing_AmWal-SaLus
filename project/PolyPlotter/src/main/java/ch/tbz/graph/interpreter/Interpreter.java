@@ -1,17 +1,18 @@
-package ch.tbz.graph.calculation.interpreter;
+package ch.tbz.graph.interpreter;
 
 import ch.tbz.exception.ParenthesesMismatchException;
-import ch.tbz.graph.calculation.GraphPixelCalculator;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Objects;
 
 /**
- * Implements the Interpreter pattern and converts a generic String to a mathematical expression/
+ * Implements the Interpreter pattern and converts a generic String into a mathematical expression.
  */
 public class Interpreter {
 
-    private StringDeterminer determiner;
-    private String variable;
+    private final StringDeterminer determiner = new StringDeterminer();
     private final HashMap<String, Integer> operatorPrecedence = new HashMap<>() {{
         put("+", 2);
         put("-", 2);
@@ -19,14 +20,13 @@ public class Interpreter {
         put("/", 3);
         put("^", 4);
     }};
-    private final String operations = "+-*/()^";
 
-    public Interpreter() {
-        this.determiner = new StringDeterminer();
-    }
+    private final String operations = "+-*/()^";
+    private String variable;
 
     /**
-     *Takes a generic string and applies the sunting yard algorithm to it.
+     * Takes a generic string and applies the sunting yard algorithm to it.
+     *
      * @param input generic input string
      * @return list of tokens, ordered with postfix notation
      * @throws ParenthesesMismatchException
@@ -80,8 +80,9 @@ public class Interpreter {
 
     /**
      * Provides the y coordinate for a given x coordinate
-     * @param x current x coordinate
-     * @param xMin minimum x coordinate to be rendered
+     *
+     * @param x      current x coordinate
+     * @param xMin   minimum x coordinate to be rendered
      * @param tokens post fix ordered tokens
      * @return resulting y coordinate
      */
@@ -94,7 +95,7 @@ public class Interpreter {
         for (String token : tokens) {
             if (!determiner.isOperator(token) && !determiner.isFunction(token)) {
                 operands.push(getTokenValue(x, xMin, token));
-            } else if (!determiner.isFunction(token)){
+            } else if (!determiner.isFunction(token)) {
                 second = operands.pop();
                 first = operands.pop();
 
@@ -110,7 +111,7 @@ public class Interpreter {
             } else {
                 first = operands.pop();
 
-                switch(token) {
+                switch (token) {
                     case "sin" -> first = Math.sin(first);
                     case "cos" -> first = Math.cos(first);
                     case "tan" -> first = Math.tan(first);
@@ -130,14 +131,16 @@ public class Interpreter {
 
     /**
      * converts the string token to its corresponding double value
-     * @param x x coordinate
-     * @param xMin minimum x coordinate to be rendered
+     *
+     * @param x     x coordinate
+     * @param xMin  minimum x coordinate to be rendered
      * @param token to be converted
      * @return double value of token
      */
     private double getTokenValue(double x, double xMin, String token) {
         if (token.equals(variable)) {
-            return GraphPixelCalculator.getX();
+            return 0.0;
+            //TODO: [sarinalusti] Return GraphPixelCalculator.getX() instead of hard coded value.
         }
         if (token.equals(String.valueOf(xMin))) {
             return x;
@@ -147,6 +150,7 @@ public class Interpreter {
 
     /**
      * Implementation of the grammar for the interpreter pattern, which returns the precedence of different operations.
+     *
      * @param o1 operator
      * @return its precedence value
      */
@@ -160,6 +164,7 @@ public class Interpreter {
 
     /**
      * Helper function to determine whether left assiciativity should be considered
+     *
      * @param token
      * @return true / false
      */
