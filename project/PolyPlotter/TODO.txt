@@ -1,0 +1,5 @@
+- should add interpreter
+
+- interpreter needs tokenizer
+
+- have to parse and split shit up
