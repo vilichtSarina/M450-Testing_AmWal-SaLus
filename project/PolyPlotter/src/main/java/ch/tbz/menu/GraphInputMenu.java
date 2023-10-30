@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * Menu that handles the custom graph entering
+ * Menu that handles entering the function that is used to create a custom graph.
  */
 public class GraphInputMenu extends JPanel implements ActionListener {
 
@@ -25,14 +25,8 @@ public class GraphInputMenu extends JPanel implements ActionListener {
         this.main = main;
 
         this.setPreferredSize(new Dimension(stdWidth, stdHeight));
-        this.setLayout(new GridBagLayout());
 
-
-        GridBagConstraints gbc = new GridBagConstraints();
-        gbc.fill = GridBagConstraints.HORIZONTAL;
-        gbc.gridx = 0;
-        gbc.gridy = 6;
-        gbc.gridwidth = 5;
+        GridBagConstraints gbc = GridLayout();
 
         JLabel format = new JLabel("y = ");
         gbc.fill = GridBagConstraints.HORIZONTAL;
@@ -63,6 +57,23 @@ public class GraphInputMenu extends JPanel implements ActionListener {
         main.getContentPane().add(this);
         main.getContentPane().revalidate();
         main.getContentPane().repaint();
+    }
+
+    /**
+     * Sets the layout to GridBagLayout and configures the GridBagConstraints.
+     *
+     * @return GridBagConstraints the configured GridBagConstraints for layout handling.
+     */
+    private GridBagConstraints GridLayout(){
+        this.setLayout(new GridBagLayout());
+
+        GridBagConstraints gbc = new GridBagConstraints();
+        gbc.fill = GridBagConstraints.HORIZONTAL;
+        gbc.gridx = 0;
+        gbc.gridy = 6;
+        gbc.gridwidth = 5;
+
+        return gbc;
     }
 
     /**
