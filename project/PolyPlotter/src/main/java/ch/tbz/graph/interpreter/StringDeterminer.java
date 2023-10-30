@@ -1,4 +1,4 @@
-package ch.tbz.graph.calculation.interpreter;
+package ch.tbz.graph.interpreter;
 
 import java.util.List;
 
