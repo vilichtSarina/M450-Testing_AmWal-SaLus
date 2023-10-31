@@ -5,18 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c4875b6-bfad-47ef-887c-ca5539b0d32d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/Starter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/fractal/Fractal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/fractal/FractalRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/fractal/set/BurningShip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/fractal/set/InverseMultibrot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/fractal/set/JuliaSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/fractal/set/MandelbrotSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/fractal/set/MultibrotSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/fractal/set/TricornSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/menu/FractalMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/menu/MainFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/menu/MenuPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project/PolyPlotter/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../project/PolyPlotter/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project/PolyPlotter/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../project/PolyPlotter/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project/PolyPlotter/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../project/PolyPlotter/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/Starter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/fractal/Fractal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/fractal/FractalRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/fractal/set/BurningShip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/fractal/set/InverseMultibrot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/fractal/set/JuliaSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/fractal/set/MandelbrotSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/fractal/set/MultibrotSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/fractal/set/TricornSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/menu/FractalMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/menu/MainFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project/PolyPlotter/src/main/java/ch/tbz/menu/MenuPanel.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
