@@ -7,6 +7,7 @@ import javax.swing.*;
 import java.awt.*;
 
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class MenuPanelTest {
 
@@ -15,13 +16,19 @@ public class MenuPanelTest {
 
     @Test
     public void tetsComponents_RendersExitAndSave() {
-        Assertions.assertTrue(menu.getExitAndSave() instanceof JButton);
+        Assertions.assertNotNull(menu.getExitAndSave());
         assertDoesNotThrow(() -> menu.getExitAndSave().doClick());
     }
 
     @Test
     public void tetsComponents_RendersFractalButton() {
-        Assertions.assertTrue(menu.getFractalButton() instanceof JButton);
+        Assertions.assertNotNull(menu.getFractalButton());
         assertDoesNotThrow(() -> menu.getFractalButton().doClick());
+    }
+
+    @Test
+    public void testFractalButton_NavigatesToFractalMenu() {
+        menu.getFractalButton().doClick();
+        assertTrue(main.getCurrentPanel() instanceof FractalMenu);
     }
 }

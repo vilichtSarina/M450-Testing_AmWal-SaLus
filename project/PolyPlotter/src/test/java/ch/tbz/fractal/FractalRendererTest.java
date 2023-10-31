@@ -1,6 +1,5 @@
 package ch.tbz.fractal;
 
-import ch.tbz.menu.FakeFractalRenderer;
 import ch.tbz.menu.MainFrame;
 import ch.tbz.menu.MenuPanel;
 import org.junit.jupiter.api.Test;
@@ -18,5 +17,16 @@ public class FractalRendererTest {
     public void testContainsGoBackButton() {
         assertTrue(fractalRenderer.getGoBack().isVisible());
         assertDoesNotThrow(() -> fractalRenderer.getGoBack().doClick());
+    }
+
+    @Test
+    public void testFractalRenderer_isDisplayed() {
+        assertTrue(fractalRenderer.isShowing());
+    }
+
+    @Test
+    public void test_navigateBackToMainMenu() {
+        fractalRenderer.getGoBack().doClick();
+        assertTrue(main.getCurrentPanel() instanceof MenuPanel);
     }
 }

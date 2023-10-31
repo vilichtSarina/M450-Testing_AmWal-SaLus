@@ -130,30 +130,82 @@ public class FractalMenu extends JPanel implements ActionListener {
         if (e.getSource() == mandelbrotSetButton) {
             main.getContentPane().removeAll();
             MandelbrotSet mSet = new MandelbrotSet(800, 800, 1.0, 100);
-            main.getContentPane().add(new FractalRenderer(mSet.getPixelIterations(), 2, mSet.getMaxIteration(), mSet, main));
+            FractalRenderer fractalRenderer = new FractalRenderer(mSet.getPixelIterations(), 2, mSet.getMaxIteration(), mSet, main);
+            main.setCurrentPanel(fractalRenderer);
+            main.getContentPane().add(fractalRenderer);
         } else if (e.getSource() == juliaSetButton) {
             main.getContentPane().removeAll();
             JuliaSet jSet = new JuliaSet(800, 800, 1.0, 70, -0.5, 0.6);
-            main.getContentPane().add(new FractalRenderer(jSet.getPixelIterations(), 2, jSet.getMaxIteration(), jSet, main));
+            FractalRenderer fractalRenderer = new FractalRenderer(jSet.getPixelIterations(), 2, jSet.getMaxIteration(), jSet, main);
+            main.setCurrentPanel(fractalRenderer);
+            main.getContentPane().add(fractalRenderer);
         } else if (e.getSource() == goBack) {
             main.getContentPane().removeAll();
             main.getContentPane().add(new MenuPanel(stdWidth, stdHeight, main));
         } else if (e.getSource() == burningShipButton) {
             main.getContentPane().removeAll();
             BurningShip burningShip = new BurningShip(800, 800, 100, 1.0, new int[800][800]);
-            main.getContentPane().add(new FractalRenderer(burningShip.getPixelIterations(), 2, burningShip.getMaxIteration(), burningShip, main));
+            FractalRenderer fractalRenderer = new FractalRenderer(burningShip.getPixelIterations(), 2, burningShip.getMaxIteration(), burningShip, main);
+            main.setCurrentPanel(fractalRenderer);
+            main.getContentPane().add(fractalRenderer);
         } else if (e.getSource() == multibrotSetButton) {
             main.getContentPane().removeAll();
             MultibrotSet multiSet = new MultibrotSet(800, 800, 1, 100);
-            main.getContentPane().add(new FractalRenderer(multiSet.getPixelIterations(), 2, multiSet.getMaxIteration(), multiSet, main));
+            FractalRenderer fractalRenderer = new FractalRenderer(multiSet.getPixelIterations(), 2, multiSet.getMaxIteration(), multiSet, main);
+            main.setCurrentPanel(fractalRenderer);
+            main.getContentPane().add(fractalRenderer);
         } else if (e.getSource() == tricornSetButton) {
             main.getContentPane().removeAll();
             TricornSet tSet = new TricornSet(800, 800, 1, 100);
-            main.getContentPane().add(new FractalRenderer(tSet.getPixelIterations(), 2, tSet.getMaxIteration(), tSet, main));
+            FractalRenderer fractalRenderer = new FractalRenderer(tSet.getPixelIterations(), 2, tSet.getMaxIteration(), tSet, main);
+            main.setCurrentPanel(fractalRenderer);
+            main.getContentPane().add(fractalRenderer);
         } else if (e.getSource() == invertedMultibrotButton) {
             main.getContentPane().removeAll();
             InverseMultibrot iSet = new InverseMultibrot(800, 800, 2, 100);
-            main.getContentPane().add(new FractalRenderer(iSet.getPixelIteration(), 2, iSet.getMaxIteration(), iSet, main));
+            FractalRenderer fractalRenderer = new FractalRenderer(iSet.getPixelIteration(), 2, iSet.getMaxIteration(), iSet, main);
+            main.setCurrentPanel(fractalRenderer);
+            main.getContentPane().add(fractalRenderer);
         }
+    }
+
+    public int getStdWidth() {
+        return stdWidth;
+    }
+
+    public int getStdHeight() {
+        return stdHeight;
+    }
+
+    public JButton getMandelbrotSetButton() {
+        return mandelbrotSetButton;
+    }
+
+    public JButton getJuliaSetButton() {
+        return juliaSetButton;
+    }
+
+    public JButton getBurningShipButton() {
+        return burningShipButton;
+    }
+
+    public JButton getMultibrotSetButton() {
+        return multibrotSetButton;
+    }
+
+    public JButton getTricornSetButton() {
+        return tricornSetButton;
+    }
+
+    public JButton getInvertedMultibrotButton() {
+        return invertedMultibrotButton;
+    }
+
+    public JButton getGoBack() {
+        return goBack;
+    }
+
+    public MainFrame getMain() {
+        return main;
     }
 }
