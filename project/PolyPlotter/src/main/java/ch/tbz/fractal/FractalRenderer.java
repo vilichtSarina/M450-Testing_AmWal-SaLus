@@ -148,4 +148,24 @@ public class FractalRenderer extends JPanel implements ActionListener {
             main.getContentPane().add(new FractalMenu(main.getWidth(), main.getHeight(), main));
         }
     }
+
+    public int[][] getIterations() {
+        return iterations;
+    }
+
+    public int getMaxIt() {
+        return maxIt;
+    }
+
+    public BufferedImage getImg() {
+        return img;
+    }
+
+    public MainFrame getMain() {
+        return main;
+    }
+
+    public JButton getGoBack() {
+        return goBack;
+    }
 }
