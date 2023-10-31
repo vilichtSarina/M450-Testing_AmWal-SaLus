@@ -26,7 +26,26 @@ public class GraphInputMenu extends JPanel implements ActionListener {
 
         this.setPreferredSize(new Dimension(stdWidth, stdHeight));
 
-        GridBagConstraints gbc = GridLayout();
+        GridLayout();
+
+        main.getContentPane().add(this);
+        main.getContentPane().revalidate();
+        main.getContentPane().repaint();
+    }
+
+    /**
+     * Sets the layout to GridBagLayout and configures the GridBagConstraints.
+     *
+     * @return GridBagConstraints the configured GridBagConstraints for layout handling.
+     */
+    private void GridLayout(){
+        this.setLayout(new GridBagLayout());
+
+        GridBagConstraints gbc = new GridBagConstraints();
+        gbc.fill = GridBagConstraints.HORIZONTAL;
+        gbc.gridx = 0;
+        gbc.gridy = 6;
+        gbc.gridwidth = 5;
 
         JLabel format = new JLabel("y = ");
         gbc.fill = GridBagConstraints.HORIZONTAL;
@@ -53,27 +72,6 @@ public class GraphInputMenu extends JPanel implements ActionListener {
         gbc.gridwidth = 1;
         goBack.addActionListener(this);
         this.add(goBack, gbc);
-
-        main.getContentPane().add(this);
-        main.getContentPane().revalidate();
-        main.getContentPane().repaint();
-    }
-
-    /**
-     * Sets the layout to GridBagLayout and configures the GridBagConstraints.
-     *
-     * @return GridBagConstraints the configured GridBagConstraints for layout handling.
-     */
-    private GridBagConstraints GridLayout(){
-        this.setLayout(new GridBagLayout());
-
-        GridBagConstraints gbc = new GridBagConstraints();
-        gbc.fill = GridBagConstraints.HORIZONTAL;
-        gbc.gridx = 0;
-        gbc.gridy = 6;
-        gbc.gridwidth = 5;
-
-        return gbc;
     }
 
     /**
