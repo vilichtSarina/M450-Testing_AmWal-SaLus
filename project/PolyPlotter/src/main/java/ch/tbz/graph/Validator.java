@@ -1,5 +1,7 @@
 package ch.tbz.graph;
 
+import ch.tbz.graph.interpreter.StringDeterminer;
+
 import java.util.List;
 import java.util.Locale;
 
@@ -48,11 +50,11 @@ public class Validator {
      *
      * @return  input string without functions
      */
-    public String removeFunctions() {
+    String removeFunctions() {
         String modInput = input;
-
-        //TODO: Amanda Walser: Add the function to modifx the input to remove the Functions, once it has been implemented.
-
+        for (String function : new StringDeterminer().getFunctions()) {
+            modInput = modInput.toLowerCase(Locale.ROOT).replaceAll(function, "");
+        }
         return modInput;
     }
 

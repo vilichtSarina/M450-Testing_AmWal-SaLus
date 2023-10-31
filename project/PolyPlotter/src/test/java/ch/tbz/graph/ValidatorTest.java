@@ -30,5 +30,13 @@ public class ValidatorTest {
         assertEquals("2x+3", validator.getInput());
     }
 
-    //TODO: Amanda Walser: Add Test to remove Functions
+    @Test
+    public void testRemoveFunctions() {
+        String input = "sin(x) + cos(y) + tan(z)";
+        Validator validator = new Validator(input);
+
+        String expectedOutput = "(x) + (y) + (z)";
+
+        assertEquals(expectedOutput, validator.removeFunctions());
+    }
 }
