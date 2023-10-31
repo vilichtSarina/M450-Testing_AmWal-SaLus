@@ -19,6 +19,9 @@ public class MandelbrotSet extends Fractal {
      * This value will later on be used to render the fractal.
      *
      * @return 2D pixel-array with number of iterations per input value.
+     *
+     * Unit test not needed, since the result of getPixelIterations() is
+     * completely coupled to the functionality of calcSet().
      */
     @Override
     public int[][] getPixelIterations() {
@@ -42,23 +45,23 @@ public class MandelbrotSet extends Fractal {
      */
     @Override
     public int calcSet(double xCvalue,double yCvalue) {
-        float iterCount = 0;
+        float iterationCount = 0;
 
         double xZtemp;
         double xZvalue = 0;
         double yZvalue = 0;
 
-        while (iterCount < maxIteration) {
+        while (iterationCount < maxIteration) {
             xZtemp = (xZvalue * xZvalue) - (yZvalue * yZvalue) + xCvalue;
             yZvalue = 2 * xZvalue * yZvalue + yCvalue;
             xZvalue = xZtemp;
 
-            iterCount = iterCount + 1;
+            iterationCount = iterationCount + 1;
             if ((xZvalue * xZvalue) + (yZvalue * yZvalue) >= 4) {
                 break;
             }
         }
-        return (int)iterCount;
+        return (int)iterationCount;
     }
 
 }
