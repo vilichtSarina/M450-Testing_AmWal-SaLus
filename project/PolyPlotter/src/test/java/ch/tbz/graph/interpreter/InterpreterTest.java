@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class InterpreterTest {
 
-    private Interpreter interpreter = new Interpreter();
+    private final Interpreter interpreter = new Interpreter();
 
     @Test
     public void testConvertToReversePolishNotation_WithValidInput_WillInterpret() {
