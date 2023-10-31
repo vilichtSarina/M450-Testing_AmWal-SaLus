@@ -1,6 +1,7 @@
 package ch.tbz.menu;
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import javax.swing.*;
@@ -11,17 +12,22 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class MenuPanelTest {
 
-    private final MainFrame main = new MainFrame(Toolkit.getDefaultToolkit().getScreenSize().width, Toolkit.getDefaultToolkit().getScreenSize().height);
-    private final MenuPanel menu = new MenuPanel(main.getWidth(), main.getHeight(), main);
+    private MainFrame main;
+    private MenuPanel menu;
 
-    @Test
-    public void tetsComponents_RendersExitAndSave() {
-        Assertions.assertNotNull(menu.getExitAndSave());
-        assertDoesNotThrow(() -> menu.getExitAndSave().doClick());
+    @BeforeEach
+    public void init() {
+        main = new MainFrame(Toolkit.getDefaultToolkit().getScreenSize().width, Toolkit.getDefaultToolkit().getScreenSize().height);
+        menu = new MenuPanel(main.getWidth(), main.getHeight(), main);
     }
 
     @Test
-    public void tetsComponents_RendersFractalButton() {
+    public void testsComponents_RendersExitAndSave() {
+        Assertions.assertNotNull(menu.getExitAndSave());
+    }
+
+    @Test
+    public void testsComponents_RendersFractalButton() {
         Assertions.assertNotNull(menu.getFractalButton());
         assertDoesNotThrow(() -> menu.getFractalButton().doClick());
     }
