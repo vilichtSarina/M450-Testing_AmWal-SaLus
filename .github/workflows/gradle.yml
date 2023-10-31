@@ -36,7 +36,7 @@ jobs:
           unzip gradle-8.2.1-bin.zip
           echo "${PWD}/gradle-8.2.1/bin" >> $GITHUB_PATH
       - name: Grant execute permission for gradlew
-        run: chmod +x ./backend/bugbusters/gradlew
+        run: chmod +x ./project/PolyPlotter/gradlew
  
       - name: Run Tests with Gradle
         working-directory: ./project/PolyPlotter
