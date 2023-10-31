@@ -16,10 +16,10 @@ public class GraphPixelCalculatorTest {
         int stdHeight = 800;
 
         GraphPixelCalculator calculator = new GraphPixelCalculator(input, stdWidth, stdHeight);
-        int[][] result = calculator.calcGraph();
+        int[][] resultPixelArray = calculator.calcGraph();
 
-        assertNotNull(result);
-        assertEquals(2, result.length);
-        assertEquals(100001, result[0].length);
+        assertNotNull(resultPixelArray);
+        assertEquals(2, resultPixelArray.length);
+        assertEquals(100001, resultPixelArray[0].length);
     }
 }

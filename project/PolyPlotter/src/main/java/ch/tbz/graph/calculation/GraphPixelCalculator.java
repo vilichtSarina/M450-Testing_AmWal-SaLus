@@ -11,6 +11,9 @@ import java.util.Stack;
  */
 public class GraphPixelCalculator {
 
+    /**
+     * Variable that is used when calculating the y-coordinate.
+     */
     public static int YCALCS = 100000;
 
     private double xMin;
@@ -48,7 +51,7 @@ public class GraphPixelCalculator {
     }
 
     /**
-     * Iterates over x coordinates to fund y coordinate
+     * Iterates over x coordinates to find y coordinate
      * @return the pixel array
      */
     public int[][] calcGraph() {

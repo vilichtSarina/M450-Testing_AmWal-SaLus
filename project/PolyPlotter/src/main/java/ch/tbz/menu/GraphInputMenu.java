@@ -34,7 +34,7 @@ public class GraphInputMenu extends JPanel implements ActionListener {
 
         this.setPreferredSize(new Dimension(stdWidth, stdHeight));
 
-        GridLayout();
+        configureComponents();
 
         validator = new Validator("");
 
@@ -49,7 +49,7 @@ public class GraphInputMenu extends JPanel implements ActionListener {
      *
      * @return GridBagConstraints the configured GridBagConstraints for layout handling.
      */
-    private void GridLayout(){
+    private void configureComponents(){
         this.setLayout(new GridBagLayout());
 
         GridBagConstraints gbc = new GridBagConstraints();
@@ -57,9 +57,7 @@ public class GraphInputMenu extends JPanel implements ActionListener {
         gbc.gridx = 0;
         gbc.gridy = 6;
         gbc.gridwidth = 5;
-        inputError.setForeground(Color.red);
-        inputError.setVisible(false);
-        this.add(inputError, gbc);
+        errorSetup(gbc);
 
         JLabel format = new JLabel("y = ");
         gbc.fill = GridBagConstraints.HORIZONTAL;
@@ -87,6 +85,12 @@ public class GraphInputMenu extends JPanel implements ActionListener {
         gbc.gridwidth = 1;
         goBack.addActionListener(this);
         this.add(goBack, gbc);
+    }
+
+    private void errorSetup(GridBagConstraints gbc){
+        inputError.setForeground(Color.red);
+        inputError.setVisible(false);
+        this.add(inputError, gbc);
     }
 
     /**

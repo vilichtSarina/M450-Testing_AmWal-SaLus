@@ -3,7 +3,7 @@ package ch.tbz.graph.calculation;
 import java.awt.*;
 
 /**
- * Class that contains the pixel array of a function along with its color
+ * Class that contains the pixel array of a function along with its color, which is used to draw the graph.
  */
 public class Graph {
 
