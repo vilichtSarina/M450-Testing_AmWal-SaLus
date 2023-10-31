@@ -14,6 +14,7 @@ public class FractalRenderer extends JPanel implements ActionListener {
     private int maxIt;
 
     private BufferedImage img;
+    private Fractal fractal;
 
     private MainFrame main;
 
@@ -21,6 +22,7 @@ public class FractalRenderer extends JPanel implements ActionListener {
 
     public FractalRenderer(int[][] iterations, double scale, int maxIt, Fractal fractal, MainFrame main) {
         this.iterations = iterations;
+        this.fractal = fractal;
         this.main = main;
 
         this.maxIt = maxIt;
@@ -167,5 +169,9 @@ public class FractalRenderer extends JPanel implements ActionListener {
 
     public JButton getGoBack() {
         return goBack;
+    }
+
+    public Fractal getFractal() {
+        return fractal;
     }
 }

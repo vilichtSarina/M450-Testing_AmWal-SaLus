@@ -44,4 +44,12 @@ public class MainFrame extends JFrame {
             }
         });
     }
+
+    public JPanel getCurrentPanel() {
+        return currentPanel;
+    }
+
+    public void setCurrentPanel(JPanel currentPanel) {
+        this.currentPanel = currentPanel;
+    }
 }
