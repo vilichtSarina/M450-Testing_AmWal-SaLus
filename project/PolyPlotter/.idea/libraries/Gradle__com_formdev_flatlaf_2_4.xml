@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.formdev:flatlaf:2.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.formdev/flatlaf/2.4/691e1f12c78f42e0dfd9fc37bc599042a1ebdd0d/flatlaf-2.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.formdev/flatlaf/2.4/efc285213c257f19be7ce6f6e9987629933cd942/flatlaf-2.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
