@@ -1,5 +1,11 @@
 package ch.tbz.menu;
 
+import ch.tbz.exception.ParenthesesMismatchException;
+import ch.tbz.graph.GraphPanel;
+import ch.tbz.graph.calculation.Graph;
+import ch.tbz.graph.calculation.GraphPixelCalculator;
+import ch.tbz.graph.Validator;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -17,7 +23,9 @@ public class GraphInputMenu extends JPanel implements ActionListener {
     private JButton calcGraph = new JButton("Calculate Graph");
     private JButton goBack = new JButton("Go Back");
 
+    private JLabel inputError = new JLabel("Your function doesn't follow a valid format.");
     private JTextField inputField = new JTextField("Enter function");
+    private Validator validator;
 
     public GraphInputMenu(int stdWidth, int stdHeight, MainFrame main) {
         this.stdWidth = stdWidth;
@@ -27,6 +35,9 @@ public class GraphInputMenu extends JPanel implements ActionListener {
         this.setPreferredSize(new Dimension(stdWidth, stdHeight));
 
         GridLayout();
+
+        validator = new Validator("");
+
 
         main.getContentPane().add(this);
         main.getContentPane().revalidate();
@@ -46,6 +57,9 @@ public class GraphInputMenu extends JPanel implements ActionListener {
         gbc.gridx = 0;
         gbc.gridy = 6;
         gbc.gridwidth = 5;
+        inputError.setForeground(Color.red);
+        inputError.setVisible(false);
+        this.add(inputError, gbc);
 
         JLabel format = new JLabel("y = ");
         gbc.fill = GridBagConstraints.HORIZONTAL;
@@ -64,6 +78,7 @@ public class GraphInputMenu extends JPanel implements ActionListener {
         gbc.gridx = 1;
         gbc.gridy = 9;
         gbc.gridwidth = 1;
+        calcGraph.addActionListener(this);
         this.add(calcGraph, gbc);
 
         gbc.fill = GridBagConstraints.HORIZONTAL;
@@ -81,7 +96,21 @@ public class GraphInputMenu extends JPanel implements ActionListener {
      */
     @Override
     public void actionPerformed(ActionEvent e) {
-        if (e.getSource() == goBack) {
+        if (e.getSource() == calcGraph) {
+            validator.setInput(inputField.getText());
+            if (validator.isValidInput()) {
+                try {
+                    main.getContentPane().removeAll();
+                    Graph myGraph = new Graph(new GraphPixelCalculator(inputField.getText(), stdWidth, stdHeight).calcGraph(), Color.red);
+                    main.getContentPane().add(new GraphPanel(myGraph, stdWidth, stdHeight, main));
+                } catch (ParenthesesMismatchException pme) {
+                    main.getContentPane().add(this);
+                    inputError.setVisible(true);
+                }
+            } else {
+                inputError.setVisible(true);
+            }
+        } else if (e.getSource() == goBack) {
             main.getContentPane().removeAll();
             main.getContentPane().add(new MenuPanel(stdWidth, stdHeight, main));
         }
