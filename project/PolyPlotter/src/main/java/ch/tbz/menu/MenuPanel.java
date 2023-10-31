@@ -76,4 +76,24 @@ public class MenuPanel extends JPanel implements ActionListener {
             System.exit(0);
         }
     }
+
+    public int getStdWidth() {
+        return stdWidth;
+    }
+
+    public int getStdHeight() {
+        return stdHeight;
+    }
+
+    public MainFrame getMain() {
+        return main;
+    }
+
+    public JButton getFractalButton() {
+        return fractalButton;
+    }
+
+    public JButton getExitAndSave() {
+        return exitAndSave;
+    }
 }
