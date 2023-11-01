@@ -1,5 +1,6 @@
 package ch.tbz.graph.interpreter;
 
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
@@ -7,11 +8,16 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class StringDeterminerTest {
 
-    private final StringDeterminer helper = new StringDeterminer();
+    private static StringDeterminer helper;
+
+    @BeforeAll
+    public static void init() {
+        helper = new StringDeterminer();
+    }
 
     @Test
     public void testIsFunction_WithValidFunction() {
-        assertTrue(helper.isFunction("sin(bla)"));
+        assertTrue(helper.isFunction("sin"));
     }
 
     @Test

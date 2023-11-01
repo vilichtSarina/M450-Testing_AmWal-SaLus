@@ -1,18 +1,23 @@
 package ch.tbz.graph.interpreter;
+
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
+
 public class DoubleStackTest {
 
 
-    private DoubleStack stack;
-    public DoubleStackTest() {
+    private static DoubleStack stack;
+
+    @BeforeAll
+    public static void init() {
         stack = new DoubleStack();
     }
 
     @BeforeEach
-    public void resetStack(){
+    public void resetStack() {
         stack = new DoubleStack();
     }
 
@@ -47,7 +52,7 @@ public class DoubleStackTest {
     public void testIsFull_WithNonNullStack() {
         int maximumIndex = 9;
 
-        for (int i= 0; i < maximumIndex; i++) {
+        for (int i = 0; i < maximumIndex; i++) {
             stack.push(i);
         }
 

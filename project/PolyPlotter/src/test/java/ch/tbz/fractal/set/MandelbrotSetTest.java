@@ -8,11 +8,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MandelbrotSetTest {
 
-    private MandelbrotSet mandelBrot;
+    private static MandelbrotSet mandelBrot;
 
 
-    @BeforeEach
-    public void init() {
+    @BeforeAll
+    public static void init() {
         mandelBrot = new MandelbrotSet(800, 800, 1.0, 100);
     }
 
