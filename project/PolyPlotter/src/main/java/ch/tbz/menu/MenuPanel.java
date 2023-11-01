@@ -115,4 +115,12 @@ public class MenuPanel extends JPanel implements ActionListener {
     public JButton getExitAndSave() {
         return exitAndSave;
     }
+
+    public JButton getCustomGraph() {
+        return customGraph;
+    }
+
+    public void setCustomGraph(JButton customGraph) {
+        this.customGraph = customGraph;
+    }
 }

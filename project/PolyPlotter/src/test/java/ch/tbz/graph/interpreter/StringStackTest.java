@@ -1,5 +1,6 @@
 package ch.tbz.graph.interpreter;
 
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -10,10 +11,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class StringStackTest {
 
-    private StringStack stack;
+    private static StringStack stack;
 
-    public StringStackTest() {
-        this.stack = new StringStack();
+    @BeforeAll
+    public static void init() {
+        stack = new StringStack();
     }
 
     @BeforeEach
@@ -51,7 +53,7 @@ public class StringStackTest {
     public void testIsFull_WithNonNullStack() {
         String value = "someValue";
         int maximumIndex = 9;
-        for (int i= 0; i < maximumIndex; i++) {
+        for (int i = 0; i < maximumIndex; i++) {
             stack.push(value);
         }
         assertTrue(stack.isFull());

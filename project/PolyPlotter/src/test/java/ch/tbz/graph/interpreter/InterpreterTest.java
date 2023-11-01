@@ -1,6 +1,7 @@
 package ch.tbz.graph.interpreter;
 
 import ch.tbz.exception.ParenthesesMismatchException;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import java.text.ParseException;
@@ -11,7 +12,12 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class InterpreterTest {
 
-    private final Interpreter interpreter = new Interpreter();
+    private static Interpreter interpreter;
+
+    @BeforeAll
+    public static void init() {
+        interpreter = new Interpreter();
+    }
 
     @Test
     public void testConvertToReversePolishNotation_WithValidInput_WillInterpret() {

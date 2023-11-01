@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PolyPlotter.iml" filepath="$PROJECT_DIR$/.idea/modules/PolyPlotter.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PolyPlotter.main.iml" filepath="$PROJECT_DIR$/.idea/modules/PolyPlotter.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PolyPlotter.test.iml" filepath="$PROJECT_DIR$/.idea/modules/PolyPlotter.test.iml" />
     </modules>
   </component>
 </project>
