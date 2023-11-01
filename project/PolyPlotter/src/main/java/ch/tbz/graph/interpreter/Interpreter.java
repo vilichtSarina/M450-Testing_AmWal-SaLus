@@ -1,6 +1,7 @@
 package ch.tbz.graph.interpreter;
 
 import ch.tbz.exception.ParenthesesMismatchException;
+import ch.tbz.graph.calculation.GraphPixelCalculator;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -139,8 +140,7 @@ public class Interpreter {
      */
     private double getTokenValue(double x, double xMin, String token) {
         if (token.equals(variable)) {
-            return 0.0;
-            //TODO: [sarinalusti] Return GraphPixelCalculator.getX() instead of hard coded value.
+            return GraphPixelCalculator.getX();
         }
         if (token.equals(String.valueOf(xMin))) {
             return x;
