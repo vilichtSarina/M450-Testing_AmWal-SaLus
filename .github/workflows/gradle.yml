@@ -40,7 +40,7 @@ jobs:
  
       - name: Run Tests related to interpreter
         working-directory: ./project/PolyPlotter
-        run: ./gradlew test --tests 'ch.tbz.graph.interpreter.*
+        run: ./gradlew test --tests 'ch.tbz.graph.interpreter.*'
         
       - name: Run Tests related to graph calculation
         working-directory: ./project/PolyPlotter
