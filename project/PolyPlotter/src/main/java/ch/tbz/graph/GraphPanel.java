@@ -106,7 +106,7 @@ public class GraphPanel extends JPanel implements ActionListener {
     }
 
     /**
-     * Draws the buffered image
+     * Draws the buffered image, uncovered in unit tests.
      */
     @Override
     public void paintComponent(Graphics g) {
@@ -127,7 +127,24 @@ public class GraphPanel extends JPanel implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == goBack) {
             main.getContentPane().removeAll();
-            main.getContentPane().add(new GraphInputMenu(stdWidth, stdHeight, main));
+            JPanel inputMenu = new GraphInputMenu(stdWidth, stdHeight, main);
+            main.setCurrentPanel(inputMenu);
+            main.getContentPane().add(inputMenu);
         }
+    }
+    public MainFrame getMain() {
+        return main;
+    }
+
+    public JButton getGoBack() {
+        return goBack;
+    }
+
+    public BufferedImage getImg() {
+        return img;
+    }
+
+    public Graph getGraph() {
+        return graph;
     }
 }

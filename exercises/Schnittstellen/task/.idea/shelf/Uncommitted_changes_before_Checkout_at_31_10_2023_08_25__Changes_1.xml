@@ -1,0 +1,54 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_31_10_2023_08_25_[Changes]1" date="1698737107050" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_10_2023_08_25_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 31/10/2023 08:25 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="../../../project/PolyPlotter/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" />
+    <option name="AFTER_PATH" value="../../../project/PolyPlotter/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_10_2023_08_25_[Changes]1/resourceHashesCache.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../../project/PolyPlotter/build/test-results/test/binary/output.bin.idx" />
+    <option name="AFTER_PATH" value="../../../project/PolyPlotter/build/test-results/test/binary/output.bin.idx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_10_2023_08_25_[Changes]1/output.bin.idx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../../project/PolyPlotter/build/tmp/compileJava/previous-compilation-data.bin" />
+    <option name="AFTER_PATH" value="../../../project/PolyPlotter/build/tmp/compileJava/previous-compilation-data.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_10_2023_08_25_[Changes]1/previous-compilation-data.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../../project/PolyPlotter/.gradle/7.5.1/fileHashes/fileHashes.bin" />
+    <option name="AFTER_PATH" value="../../../project/PolyPlotter/.gradle/7.5.1/fileHashes/fileHashes.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_10_2023_08_25_[Changes]1/fileHashes.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../../project/PolyPlotter/build/test-results/test/binary/results.bin" />
+    <option name="AFTER_PATH" value="../../../project/PolyPlotter/build/test-results/test/binary/results.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_10_2023_08_25_[Changes]1/results.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../../project/PolyPlotter/build/test-results/test/binary/output.bin" />
+    <option name="AFTER_PATH" value="../../../project/PolyPlotter/build/test-results/test/binary/output.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_10_2023_08_25_[Changes]1/output.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../../project/PolyPlotter/.gradle/7.5.1/fileHashes/fileHashes.lock" />
+    <option name="AFTER_PATH" value="../../../project/PolyPlotter/.gradle/7.5.1/fileHashes/fileHashes.lock" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_10_2023_08_25_[Changes]1/fileHashes.lock" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../../project/PolyPlotter/.gradle/7.5.1/executionHistory/executionHistory.bin" />
+    <option name="AFTER_PATH" value="../../../project/PolyPlotter/.gradle/7.5.1/executionHistory/executionHistory.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_10_2023_08_25_[Changes]1/executionHistory.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../../project/PolyPlotter/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+    <option name="AFTER_PATH" value="../../../project/PolyPlotter/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_10_2023_08_25_[Changes]1/buildOutputCleanup.lock" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../../project/PolyPlotter/.gradle/7.5.1/executionHistory/executionHistory.lock" />
+    <option name="AFTER_PATH" value="../../../project/PolyPlotter/.gradle/7.5.1/executionHistory/executionHistory.lock" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_10_2023_08_25_[Changes]1/executionHistory.lock" />
+  </binary>
+</changelist>

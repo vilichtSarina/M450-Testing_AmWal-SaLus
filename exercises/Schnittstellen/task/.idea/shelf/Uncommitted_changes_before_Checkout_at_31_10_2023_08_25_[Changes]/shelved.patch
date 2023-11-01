@@ -1,0 +1,316 @@
+Index: .idea/sonarlint/issuestore/index.pb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\nh\n8src/main/java/ch/tbz/task/address/AddressRepository.java\u0012,b\\9\\b95c290555b82b895f31b71650ecf5f4bd746953\n^\n.src/main/java/ch/tbz/task/TaskApplication.java\u0012,b\\d\\bd717f242f65693e8dfbfa5c1bcc1ab22943cce0\na\n1src/main/java/ch/tbz/task/address/AddressDAO.java\u0012,4\\1\\4145c9a828d2a8f87446b18c44fcd2a013c0b789\na\n1src/test/java/ch/tbz/task/FakeAddressService.java\u0012,f\\8\\f8c684a22bf11ceda6dd2111bf6173c1272a0bcb\n^\n.src/main/java/ch/tbz/task/address/Address.java\u0012,e\\6\\e69ff89a7305ef4e938fb30b07be3b66d35569a9\nh\n8src/main/java/ch/tbz/task/address/AddressComparator.java\u0012,b\\1\\b1a0db1a3077f81a4919fb43655d99560f97ac73\ne\n5src/main/java/ch/tbz/task/address/AddressService.java\u0012,4\\2\\42f23a6ceab09318b22267d8c0dd1c0b758c7277\nb\n2src/test/java/ch/tbz/task/AddressComparerTest.java\u0012,0\\3\\03dca5f4f36dae0ff1c23e0e2fa6f3ad67e2a8f7\n<\n\fbuild.gradle\u0012,f\\0\\f07866736216be0ee2aba49e392191aeae700a35\nh\n8src/main/java/ch/tbz/task/address/AddressController.java\u0012,a\\6\\a6d1a95fee0120cf59215068644c067418393b2c\nc\n3src/test/java/ch/tbz/task/TaskApplicationTests.java\u0012,6\\1\\6189888e9f36a7d320081e43ee70d163e7573de8
+===================================================================
+diff --git a/.idea/sonarlint/issuestore/index.pb b/.idea/sonarlint/issuestore/index.pb
+--- a/.idea/sonarlint/issuestore/index.pb	
++++ b/.idea/sonarlint/issuestore/index.pb	
+@@ -1,23 +1,0 @@
+-
+-h
+-8src/main/java/ch/tbz/task/address/AddressRepository.java,b\9\b95c290555b82b895f31b71650ecf5f4bd746953
+-^
+-.src/main/java/ch/tbz/task/TaskApplication.java,b\d\bd717f242f65693e8dfbfa5c1bcc1ab22943cce0
+-a
+-1src/main/java/ch/tbz/task/address/AddressDAO.java,4\1\4145c9a828d2a8f87446b18c44fcd2a013c0b789
+-a
+-1src/test/java/ch/tbz/task/FakeAddressService.java,f\8\f8c684a22bf11ceda6dd2111bf6173c1272a0bcb
+-^
+-.src/main/java/ch/tbz/task/address/Address.java,e\6\e69ff89a7305ef4e938fb30b07be3b66d35569a9
+-h
+-8src/main/java/ch/tbz/task/address/AddressComparator.java,b\1\b1a0db1a3077f81a4919fb43655d99560f97ac73
+-e
+-5src/main/java/ch/tbz/task/address/AddressService.java,4\2\42f23a6ceab09318b22267d8c0dd1c0b758c7277
+-b
+-2src/test/java/ch/tbz/task/AddressComparerTest.java,0\3\03dca5f4f36dae0ff1c23e0e2fa6f3ad67e2a8f7
+-<
+-build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
+-h
+-8src/main/java/ch/tbz/task/address/AddressController.java,a\6\a6d1a95fee0120cf59215068644c067418393b2c
+-c
+-3src/test/java/ch/tbz/task/TaskApplicationTests.java,6\1\6189888e9f36a7d320081e43ee70d163e7573de8
+\ No newline at end of file
+Index: ../../../project/PolyPlotter/.idea/sonarlint/issuestore/index.pb
+===================================================================
+diff --git a/../../../project/PolyPlotter/.idea/sonarlint/issuestore/index.pb b/../../../project/PolyPlotter/.idea/sonarlint/issuestore/index.pb
+--- a/../../../project/PolyPlotter/.idea/sonarlint/issuestore/index.pb	
++++ b/../../../project/PolyPlotter/.idea/sonarlint/issuestore/index.pb	
+@@ -1,0 +1,35 @@
++
++<
++build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
++Q
++!src/main/java/ch/tbz/Starter.java,a\e\ae81447e8b6b143b06efbf1d1a3ee91efb56466f
++X
++(src/main/java/ch/tbz/menu/MenuPanel.java,9\3\932efe3a8d54912bed9e6658a45e413c7ad06f0b
++8
++TODO.txt,b\8\b871594f146532f9abccbebffa1170a083349518
++Y
++)src/main/java/ch/tbz/fractal/Fractal.java,b\3\b36fd99b58844a902ac9f85acd713828378cb7bf
++Z
++*src/main/java/ch/tbz/menu/FractalMenu.java,e\1\e114769d0440ce9783a05fe0a49953a474a6e5d9
++g
++7src/main/java/ch/tbz/graph/interpreter/DoubleStack.java,a\8\a86fd2a71ece86553780796bc09ca6cd4c3fcb6d
++k
++;src/test/java/ch/tbz/graph/interpreter/DoubleStackTest.java,c\8\c8ba77663581a76b05736627add986245de217fa
++l
++<src/main/java/ch/tbz/graph/interpreter/StringDeterminer.java,5\6\56982d29eb5dcad98cc257bfae96fd86b118a9d0
++e
++5src/main/java/ch/tbz/graph/interpreter/Tokenizer.java,6\a\6aa15206858600580621abe32df5f80a5c815340
++p
++@src/test/java/ch/tbz/graph/interpreter/StringDeterminerTest.java,1\9\193b33035579b52c3b971dedd8c8b6483985f2ed
++k
++;src/test/java/ch/tbz/graph/interpreter/StringStackTest.java,2\0\20284642b0b9096ba561564b95d78703121e046f
++i
++9src/test/java/ch/tbz/graph/interpreter/TokenizerTest.java,a\a\aa0351b3fcb95c9d66592e88d1ce3b374fa6562c
++k
++;src/test/java/ch/tbz/graph/interpreter/InterpreterTest.java,b\b\bb2a6034d9ee2c769a84f700d1e1f072379ef4c8
++g
++7src/main/java/ch/tbz/graph/interpreter/Interpreter.java,d\e\dedbb6c37c70d02ac09bd0273d69e35b9346f046
++p
++@src/main/java/ch/tbz/exception/ParenthesesMismatchException.java,3\f\3f92807488d11ad0f748f38795a33a467afa56a1
++k
++;src/main/java/ch/tbz/exception/FunctionFormatException.java,6\f\6f00b00b244d80a001e870b39c73187743042a1c
+\ No newline at end of file
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"GradleSettings\">\r\n    <option name=\"linkedExternalProjectsSettings\">\r\n      <GradleProjectSettings>\r\n        <option name=\"distributionType\" value=\"DEFAULT_WRAPPED\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"gradleJvm\" value=\"#JAVA_HOME\" />\r\n        <option name=\"modules\">\r\n          <set>\r\n            <option value=\"$PROJECT_DIR$\" />\r\n          </set>\r\n        </option>\r\n      </GradleProjectSettings>\r\n    </option>\r\n  </component>\r\n</project>
+===================================================================
+diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+--- a/.idea/gradle.xml	
++++ b/.idea/gradle.xml	
+@@ -1,5 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="GradleMigrationSettings" migrationVersion="1" />
+   <component name="GradleSettings">
+     <option name="linkedExternalProjectsSettings">
+       <GradleProjectSettings>
+Index: ../../../project/PolyPlotter/build/reports/tests/test/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"/>\r\n<meta http-equiv=\"x-ua-compatible\" content=\"IE=edge\"/>\r\n<title>Test results - Test Summary</title>\r\n<link href=\"css/base-style.css\" rel=\"stylesheet\" type=\"text/css\"/>\r\n<link href=\"css/style.css\" rel=\"stylesheet\" type=\"text/css\"/>\r\n<script src=\"js/report.js\" type=\"text/javascript\"></script>\r\n</head>\r\n<body>\r\n<div id=\"content\">\r\n<h1>Test Summary</h1>\r\n<div id=\"summary\">\r\n<table>\r\n<tr>\r\n<td>\r\n<div class=\"summaryGroup\">\r\n<table>\r\n<tr>\r\n<td>\r\n<div class=\"infoBox\" id=\"tests\">\r\n<div class=\"counter\">1</div>\r\n<p>tests</p>\r\n</div>\r\n</td>\r\n<td>\r\n<div class=\"infoBox\" id=\"failures\">\r\n<div class=\"counter\">0</div>\r\n<p>failures</p>\r\n</div>\r\n</td>\r\n<td>\r\n<div class=\"infoBox\" id=\"ignored\">\r\n<div class=\"counter\">0</div>\r\n<p>ignored</p>\r\n</div>\r\n</td>\r\n<td>\r\n<div class=\"infoBox\" id=\"duration\">\r\n<div class=\"counter\">0.017s</div>\r\n<p>duration</p>\r\n</div>\r\n</td>\r\n</tr>\r\n</table>\r\n</div>\r\n</td>\r\n<td>\r\n<div class=\"infoBox success\" id=\"successRate\">\r\n<div class=\"percent\">100%</div>\r\n<p>successful</p>\r\n</div>\r\n</td>\r\n</tr>\r\n</table>\r\n</div>\r\n<div id=\"tabs\">\r\n<ul class=\"tabLinks\">\r\n<li>\r\n<a href=\"#tab0\">Packages</a>\r\n</li>\r\n<li>\r\n<a href=\"#tab1\">Classes</a>\r\n</li>\r\n</ul>\r\n<div id=\"tab0\" class=\"tab\">\r\n<h2>Packages</h2>\r\n<table>\r\n<thead>\r\n<tr>\r\n<th>Package</th>\r\n<th>Tests</th>\r\n<th>Failures</th>\r\n<th>Ignored</th>\r\n<th>Duration</th>\r\n<th>Success rate</th>\r\n</tr>\r\n</thead>\r\n<tbody>\r\n<tr>\r\n<td class=\"success\">\r\n<a href=\"packages/ch.tbz.graph.interpreter.html\">ch.tbz.graph.interpreter</a>\r\n</td>\r\n<td>1</td>\r\n<td>0</td>\r\n<td>0</td>\r\n<td>0.017s</td>\r\n<td class=\"success\">100%</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n</div>\r\n<div id=\"tab1\" class=\"tab\">\r\n<h2>Classes</h2>\r\n<table>\r\n<thead>\r\n<tr>\r\n<th>Class</th>\r\n<th>Tests</th>\r\n<th>Failures</th>\r\n<th>Ignored</th>\r\n<th>Duration</th>\r\n<th>Success rate</th>\r\n</tr>\r\n</thead>\r\n<tbody>\r\n<tr>\r\n<td class=\"success\">\r\n<a href=\"classes/ch.tbz.graph.interpreter.StringStackTest.html\">ch.tbz.graph.interpreter.StringStackTest</a>\r\n</td>\r\n<td>1</td>\r\n<td>0</td>\r\n<td>0</td>\r\n<td>0.017s</td>\r\n<td class=\"success\">100%</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n<div id=\"footer\">\r\n<p>\r\n<div>\r\n<label class=\"hidden\" id=\"label-for-line-wrapping-toggle\" for=\"line-wrapping-toggle\">Wrap lines\r\n<input id=\"line-wrapping-toggle\" type=\"checkbox\" autocomplete=\"off\"/>\r\n</label>\r\n</div>Generated by \r\n<a href=\"http://www.gradle.org\">Gradle 7.5.1</a> at 30 Oct 2023, 19:04:07</p>\r\n</div>\r\n</div>\r\n</body>\r\n</html>\r\n
+===================================================================
+diff --git a/../../../project/PolyPlotter/build/reports/tests/test/index.html b/../../../project/PolyPlotter/build/reports/tests/test/index.html
+--- a/../../../project/PolyPlotter/build/reports/tests/test/index.html	
++++ b/../../../project/PolyPlotter/build/reports/tests/test/index.html	
+@@ -26,7 +26,7 @@
+ </td>
+ <td>
+ <div class="infoBox" id="failures">
+-<div class="counter">0</div>
++<div class="counter">1</div>
+ <p>failures</p>
+ </div>
+ </td>
+@@ -38,7 +38,7 @@
+ </td>
+ <td>
+ <div class="infoBox" id="duration">
+-<div class="counter">0.017s</div>
++<div class="counter">0.026s</div>
+ <p>duration</p>
+ </div>
+ </td>
+@@ -47,8 +47,8 @@
+ </div>
+ </td>
+ <td>
+-<div class="infoBox success" id="successRate">
+-<div class="percent">100%</div>
++<div class="infoBox failures" id="successRate">
++<div class="percent">0%</div>
+ <p>successful</p>
+ </div>
+ </td>
+@@ -58,13 +58,25 @@
+ <div id="tabs">
+ <ul class="tabLinks">
+ <li>
+-<a href="#tab0">Packages</a>
++<a href="#tab0">Failed tests</a>
++</li>
++<li>
++<a href="#tab1">Packages</a>
+ </li>
+ <li>
+-<a href="#tab1">Classes</a>
++<a href="#tab2">Classes</a>
+ </li>
+ </ul>
+ <div id="tab0" class="tab">
++<h2>Failed tests</h2>
++<ul class="linkList">
++<li>
++<a href="classes/ch.tbz.graph.interpreter.InterpreterTest.html">InterpreterTest</a>.
++<a href="classes/ch.tbz.graph.interpreter.InterpreterTest.html#testConvertToReversePolishNotation_WithInvalidParentheses_ThrowsException()">testConvertToReversePolishNotation_WithInvalidParentheses_ThrowsException()</a>
++</li>
++</ul>
++</div>
++<div id="tab1" class="tab">
+ <h2>Packages</h2>
+ <table>
+ <thead>
+@@ -79,19 +91,19 @@
+ </thead>
+ <tbody>
+ <tr>
+-<td class="success">
++<td class="failures">
+ <a href="packages/ch.tbz.graph.interpreter.html">ch.tbz.graph.interpreter</a>
+ </td>
+ <td>1</td>
+-<td>0</td>
++<td>1</td>
+ <td>0</td>
+-<td>0.017s</td>
+-<td class="success">100%</td>
++<td>0.026s</td>
++<td class="failures">0%</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+-<div id="tab1" class="tab">
++<div id="tab2" class="tab">
+ <h2>Classes</h2>
+ <table>
+ <thead>
+@@ -106,14 +118,14 @@
+ </thead>
+ <tbody>
+ <tr>
+-<td class="success">
+-<a href="classes/ch.tbz.graph.interpreter.StringStackTest.html">ch.tbz.graph.interpreter.StringStackTest</a>
++<td class="failures">
++<a href="classes/ch.tbz.graph.interpreter.InterpreterTest.html">ch.tbz.graph.interpreter.InterpreterTest</a>
+ </td>
+ <td>1</td>
++<td>1</td>
+ <td>0</td>
+-<td>0</td>
+-<td>0.017s</td>
+-<td class="success">100%</td>
++<td>0.026s</td>
++<td class="failures">0%</td>
+ </tr>
+ </tbody>
+ </table>
+@@ -126,7 +138,7 @@
+ <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+ </label>
+ </div>Generated by 
+-<a href="http://www.gradle.org">Gradle 7.5.1</a> at 30 Oct 2023, 19:04:07</p>
++<a href="http://www.gradle.org">Gradle 7.5.1</a> at 30 Oct 2023, 21:19:56</p>
+ </div>
+ </div>
+ </body>
+Index: ../../../project/PolyPlotter/src/main/java/ch/tbz/exception/FunctionFormatException.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package ch.tbz.exception;\r\n\r\n/**\r\n * This exception occurs during interpreting.\r\n * It's extended by the more specific ParenthesesMismatchException.\r\n * \r\n * As a general idea, this class has the purpose of surfacing the exception whenever a given input in the\r\n * GraphInputMenu cannot be converted into a valid mathematical function and or graph.*/\r\npublic class FunctionFormatException extends NumberFormatException{\r\n    public FunctionFormatException(String functionInput) {\r\n        super(\"The input \\\"\" + functionInput + \"\\\" doesn't follow the requirements.\");\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/../../../project/PolyPlotter/src/main/java/ch/tbz/exception/FunctionFormatException.java b/../../../project/PolyPlotter/src/main/java/ch/tbz/exception/FunctionFormatException.java
+--- a/../../../project/PolyPlotter/src/main/java/ch/tbz/exception/FunctionFormatException.java	
++++ b/../../../project/PolyPlotter/src/main/java/ch/tbz/exception/FunctionFormatException.java	
+@@ -3,7 +3,7 @@
+ /**
+  * This exception occurs during interpreting.
+  * It's extended by the more specific ParenthesesMismatchException.
+- * 
++ *
+  * As a general idea, this class has the purpose of surfacing the exception whenever a given input in the
+  * GraphInputMenu cannot be converted into a valid mathematical function and or graph.*/
+ public class FunctionFormatException extends NumberFormatException{
+Index: ../../../project/PolyPlotter/build/reports/tests/test/packages/ch.tbz.graph.interpreter.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"/>\r\n<meta http-equiv=\"x-ua-compatible\" content=\"IE=edge\"/>\r\n<title>Test results - Package ch.tbz.graph.interpreter</title>\r\n<link href=\"../css/base-style.css\" rel=\"stylesheet\" type=\"text/css\"/>\r\n<link href=\"../css/style.css\" rel=\"stylesheet\" type=\"text/css\"/>\r\n<script src=\"../js/report.js\" type=\"text/javascript\"></script>\r\n</head>\r\n<body>\r\n<div id=\"content\">\r\n<h1>Package ch.tbz.graph.interpreter</h1>\r\n<div class=\"breadcrumbs\">\r\n<a href=\"../index.html\">all</a> &gt; ch.tbz.graph.interpreter</div>\r\n<div id=\"summary\">\r\n<table>\r\n<tr>\r\n<td>\r\n<div class=\"summaryGroup\">\r\n<table>\r\n<tr>\r\n<td>\r\n<div class=\"infoBox\" id=\"tests\">\r\n<div class=\"counter\">1</div>\r\n<p>tests</p>\r\n</div>\r\n</td>\r\n<td>\r\n<div class=\"infoBox\" id=\"failures\">\r\n<div class=\"counter\">0</div>\r\n<p>failures</p>\r\n</div>\r\n</td>\r\n<td>\r\n<div class=\"infoBox\" id=\"ignored\">\r\n<div class=\"counter\">0</div>\r\n<p>ignored</p>\r\n</div>\r\n</td>\r\n<td>\r\n<div class=\"infoBox\" id=\"duration\">\r\n<div class=\"counter\">0.017s</div>\r\n<p>duration</p>\r\n</div>\r\n</td>\r\n</tr>\r\n</table>\r\n</div>\r\n</td>\r\n<td>\r\n<div class=\"infoBox success\" id=\"successRate\">\r\n<div class=\"percent\">100%</div>\r\n<p>successful</p>\r\n</div>\r\n</td>\r\n</tr>\r\n</table>\r\n</div>\r\n<div id=\"tabs\">\r\n<ul class=\"tabLinks\">\r\n<li>\r\n<a href=\"#tab0\">Classes</a>\r\n</li>\r\n</ul>\r\n<div id=\"tab0\" class=\"tab\">\r\n<h2>Classes</h2>\r\n<table>\r\n<thread>\r\n<tr>\r\n<th>Class</th>\r\n<th>Tests</th>\r\n<th>Failures</th>\r\n<th>Ignored</th>\r\n<th>Duration</th>\r\n<th>Success rate</th>\r\n</tr>\r\n</thread>\r\n<tr>\r\n<td class=\"success\">\r\n<a href=\"../classes/ch.tbz.graph.interpreter.StringStackTest.html\">StringStackTest</a>\r\n</td>\r\n<td>1</td>\r\n<td>0</td>\r\n<td>0</td>\r\n<td>0.017s</td>\r\n<td class=\"success\">100%</td>\r\n</tr>\r\n</table>\r\n</div>\r\n</div>\r\n<div id=\"footer\">\r\n<p>\r\n<div>\r\n<label class=\"hidden\" id=\"label-for-line-wrapping-toggle\" for=\"line-wrapping-toggle\">Wrap lines\r\n<input id=\"line-wrapping-toggle\" type=\"checkbox\" autocomplete=\"off\"/>\r\n</label>\r\n</div>Generated by \r\n<a href=\"http://www.gradle.org\">Gradle 7.5.1</a> at 30 Oct 2023, 19:04:07</p>\r\n</div>\r\n</div>\r\n</body>\r\n</html>\r\n
+===================================================================
+diff --git a/../../../project/PolyPlotter/build/reports/tests/test/packages/ch.tbz.graph.interpreter.html b/../../../project/PolyPlotter/build/reports/tests/test/packages/ch.tbz.graph.interpreter.html
+--- a/../../../project/PolyPlotter/build/reports/tests/test/packages/ch.tbz.graph.interpreter.html	
++++ b/../../../project/PolyPlotter/build/reports/tests/test/packages/ch.tbz.graph.interpreter.html	
+@@ -28,7 +28,7 @@
+ </td>
+ <td>
+ <div class="infoBox" id="failures">
+-<div class="counter">0</div>
++<div class="counter">1</div>
+ <p>failures</p>
+ </div>
+ </td>
+@@ -40,7 +40,7 @@
+ </td>
+ <td>
+ <div class="infoBox" id="duration">
+-<div class="counter">0.017s</div>
++<div class="counter">0.026s</div>
+ <p>duration</p>
+ </div>
+ </td>
+@@ -49,8 +49,8 @@
+ </div>
+ </td>
+ <td>
+-<div class="infoBox success" id="successRate">
+-<div class="percent">100%</div>
++<div class="infoBox failures" id="successRate">
++<div class="percent">0%</div>
+ <p>successful</p>
+ </div>
+ </td>
+@@ -60,10 +60,22 @@
+ <div id="tabs">
+ <ul class="tabLinks">
+ <li>
+-<a href="#tab0">Classes</a>
++<a href="#tab0">Failed tests</a>
++</li>
++<li>
++<a href="#tab1">Classes</a>
+ </li>
+ </ul>
+ <div id="tab0" class="tab">
++<h2>Failed tests</h2>
++<ul class="linkList">
++<li>
++<a href="../classes/ch.tbz.graph.interpreter.InterpreterTest.html">InterpreterTest</a>.
++<a href="../classes/ch.tbz.graph.interpreter.InterpreterTest.html#testConvertToReversePolishNotation_WithInvalidParentheses_ThrowsException()">testConvertToReversePolishNotation_WithInvalidParentheses_ThrowsException()</a>
++</li>
++</ul>
++</div>
++<div id="tab1" class="tab">
+ <h2>Classes</h2>
+ <table>
+ <thread>
+@@ -77,14 +89,14 @@
+ </tr>
+ </thread>
+ <tr>
+-<td class="success">
+-<a href="../classes/ch.tbz.graph.interpreter.StringStackTest.html">StringStackTest</a>
++<td class="failures">
++<a href="../classes/ch.tbz.graph.interpreter.InterpreterTest.html">InterpreterTest</a>
+ </td>
+ <td>1</td>
+-<td>0</td>
++<td>1</td>
+ <td>0</td>
+-<td>0.017s</td>
+-<td class="success">100%</td>
++<td>0.026s</td>
++<td class="failures">0%</td>
+ </tr>
+ </table>
+ </div>
+@@ -96,7 +108,7 @@
+ <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+ </label>
+ </div>Generated by 
+-<a href="http://www.gradle.org">Gradle 7.5.1</a> at 30 Oct 2023, 19:04:07</p>
++<a href="http://www.gradle.org">Gradle 7.5.1</a> at 30 Oct 2023, 21:19:56</p>
+ </div>
+ </div>
+ </body>
