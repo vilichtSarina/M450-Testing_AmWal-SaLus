@@ -83,10 +83,14 @@ public class MenuPanel extends JPanel implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == fractalButton) {
             main.getContentPane().removeAll();
-            main.getContentPane().add(new FractalMenu(stdWidth, stdHeight, main));
+            JPanel fractalMenu = new FractalMenu(stdWidth, stdHeight, main);
+            main.setCurrentPanel(fractalMenu);
+            main.getContentPane().add(fractalMenu);
         } else if (e.getSource() == customGraph) {
             main.getContentPane().removeAll();
-            main.getContentPane().add(new GraphInputMenu(stdWidth, stdHeight, main));
+            JPanel graphInputMenu = new GraphInputMenu(stdWidth, stdHeight, main);
+            main.setCurrentPanel(graphInputMenu);
+            main.getContentPane().add(graphInputMenu);
         } else if (e.getSource() == exitAndSave) {
             System.exit(0);
         }
