@@ -21,7 +21,7 @@ public class FractalRendererTest {
 
     @Test
     public void testFractalRenderer_isDisplayed() {
-        assertTrue(fractalRenderer.isShowing());
+        assertTrue(fractalRenderer.isVisible());
     }
 
     @Test
