@@ -106,7 +106,9 @@ public class GraphInputMenu extends JPanel implements ActionListener {
                 try {
                     main.getContentPane().removeAll();
                     Graph myGraph = new Graph(new GraphPixelCalculator(inputField.getText(), stdWidth, stdHeight).calcGraph(), Color.red);
-                    main.getContentPane().add(new GraphPanel(myGraph, stdWidth, stdHeight, main));
+                    GraphPanel panel = new GraphPanel(myGraph, stdWidth, stdHeight, main);
+                    main.setCurrentPanel(panel);
+                    main.getContentPane().add(panel);
                 } catch (ParenthesesMismatchException pme) {
                     main.getContentPane().add(this);
                     inputError.setVisible(true);
@@ -116,7 +118,20 @@ public class GraphInputMenu extends JPanel implements ActionListener {
             }
         } else if (e.getSource() == goBack) {
             main.getContentPane().removeAll();
-            main.getContentPane().add(new MenuPanel(stdWidth, stdHeight, main));
+            MenuPanel panel = new MenuPanel(stdWidth, stdHeight, main);
+            main.setCurrentPanel(panel);
+            main.getContentPane().add(panel);
         }
+    }
+
+    public JButton getGoBack() {
+        return goBack;
+    }
+    public JTextField getInputField() {
+        return inputField;
+    }
+
+    public JButton getCalcGraph() {
+        return calcGraph;
     }
 }
