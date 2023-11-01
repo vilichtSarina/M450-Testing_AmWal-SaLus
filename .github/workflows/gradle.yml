@@ -38,9 +38,21 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x ./project/PolyPlotter/gradlew
  
-      - name: Run Tests with Gradle
+      - name: Run Tests related to interpreter
         working-directory: ./project/PolyPlotter
-        run: ./gradlew test -Dspring.profiles.active=test
+        run: ./gradlew test --tests 'ch.tbz.graph.interpreter.*
+        
+      - name: Run Tests related to graph calculation
+        working-directory: ./project/PolyPlotter
+        run: ./gradlew test --tests 'ch.tbz.graph.calculation.*'
+        
+      - name: Run Tests related to graph input validation
+        working-directory: ./project/PolyPlotter
+        run: ./gradlew test --tests 'ch.tbz.graph.ValidatorTest'
+        
+      - name: Run Tests related to fractals
+        working-directory: ./project/PolyPlotter
+        run: ./gradlew test --tests 'ch.tbz.fractal.set.*'
 
       - name: Archive build artifacts
         uses: actions/upload-artifact@v2
