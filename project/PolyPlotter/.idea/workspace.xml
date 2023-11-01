@@ -4,7 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5f3cdbd-3876-47b9-97f6-d94365aec989" name="Changes" comment="" />
+    <list default="true" id="f28b4f88-6d72-43fd-b0b0-37a89b089e56" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/PolyPlotter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/PolyPlotter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/PolyPlotter.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/PolyPlotter.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_10_2023_11_35__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_10_2023_11_35__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_10_2023_11_35__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_10_2023_11_35__Changes_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ch/tbz/fractal/FractalRendererTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/tbz/fractal/FractalRendererTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ch/tbz/fractal/set/JuliaSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/tbz/fractal/set/JuliaSetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ch/tbz/fractal/set/MandelbrotSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/tbz/fractal/set/MandelbrotSetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ch/tbz/graph/interpreter/DoubleStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/tbz/graph/interpreter/DoubleStackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ch/tbz/graph/interpreter/InterpreterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/tbz/graph/interpreter/InterpreterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ch/tbz/graph/interpreter/StringDeterminerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/tbz/graph/interpreter/StringDeterminerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ch/tbz/graph/interpreter/StringStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/tbz/graph/interpreter/StringStackTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,12 +49,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="PolyPlotter" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -50,13 +71,22 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2XaZqRh1VlZ2X233Or95TFw5SV4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.FractalMenuTest">
+  <component name="RunManager" selected="Gradle.StringDeterminerTest.testIsFunction_WithValidFunction">
     <configuration name="FractalMenuTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -126,7 +156,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FractalRendererTest.bla" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GraphPanelTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -139,7 +169,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ch.tbz.fractal.FractalRendererTest.bla&quot;" />
+            <option value="&quot;ch.tbz.graph.GraphPanelTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -149,7 +179,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MenuPanelTest.tetsComponents_RendersFractalButton" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StringDeterminerTest.testIsFunction_WithValidFunction" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -162,7 +192,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ch.tbz.menu.MenuPanelTest.tetsComponents_RendersFractalButton&quot;" />
+            <option value="&quot;ch.tbz.graph.interpreter.StringDeterminerTest.testIsFunction_WithValidFunction&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -174,21 +204,38 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.StringDeterminerTest.testIsFunction_WithValidFunction" />
         <item itemvalue="Gradle.FractalMenuTest" />
+        <item itemvalue="Gradle.GraphPanelTest" />
         <item itemvalue="Gradle.FractalMenuTest.testJuliaSetButton_NavigatesToAndDisplaysFractal" />
         <item itemvalue="Gradle.FractalMenuTest.testFractalMenu_ContainsAllButtons" />
-        <item itemvalue="Gradle.FractalRendererTest.bla" />
-        <item itemvalue="Gradle.MenuPanelTest.tetsComponents_RendersFractalButton" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f28b4f88-6d72-43fd-b0b0-37a89b089e56" name="Changes" comment="" />
+      <created>1698869346590</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698869346590</updated>
+      <workItem from="1698869347920" duration="1441000" />
+    </task>
     <servers />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PolyPlotter$Starter.ic" NAME="Starter Coverage Results" MODIFIED="1698742953408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/PolyPlotter$DoubleStackTest.ic" NAME="DoubleStackTest Coverage Results" MODIFIED="1698784253717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/PolyPlotter$MandelbrotSetTest_testCalcSet_ValidCoordinatesReturnMaxIterations.ic" NAME="MandelbrotSetTest.testCalcSet_ValidCoordinatesReturnMaxIterations Coverage Results" MODIFIED="1698787293883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/PolyPlotter$GraphPanelTest.ic" NAME="GraphPanelTest Coverage Results" MODIFIED="1698786037650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/PolyPlotter$JuliaSetTest.ic" NAME="JuliaSetTest Coverage Results" MODIFIED="1698788048589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/PolyPlotter$InterpreterTest.ic" NAME="InterpreterTest Coverage Results" MODIFIED="1698784205242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/PolyPlotter$FractalMenuTest.ic" NAME="FractalMenuTest Coverage Results" MODIFIED="1698746839524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/PolyPlotter$Starter.ic" NAME="Starter Coverage Results" MODIFIED="1698783823086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ch.tbz.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/PolyPlotter$FractalMenuTest.ic" NAME="FractalMenuTest Coverage Results" MODIFIED="1698746839524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/PolyPlotter$MandelbrotSetTest_testCalcSet_WithCoordinatesNotInSet.ic" NAME="MandelbrotSetTest.testCalcSet_WithCoordinatesNotInSet Coverage Results" MODIFIED="1698786853316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/PolyPlotter$FractalRendererTest.ic" NAME="FractalRendererTest Coverage Results" MODIFIED="1698784732439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/PolyPlotter$MenuPanelTest.ic" NAME="MenuPanelTest Coverage Results" MODIFIED="1698783764096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

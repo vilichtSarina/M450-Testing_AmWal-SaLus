@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ch.tbz.graph.interpreter.StringStackTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-30T18:04:07" hostname="LAPTOP-EKHFH9QK" time="0.017">
-  <properties/>
-  <testcase name="testIsFull_WithNonNullStack()" classname="ch.tbz.graph.interpreter.StringStackTest" time="0.017"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

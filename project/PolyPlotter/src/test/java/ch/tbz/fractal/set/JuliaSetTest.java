@@ -1,5 +1,6 @@
 package ch.tbz.fractal.set;
 
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -10,7 +11,13 @@ public class JuliaSetTest {
     // within this application. Therefore, since usage is indefinitely one-sided, the unit tests can be made
     // working with fixated test cases.
     // To to the requirements of the application, no further testing is needed.
-    private JuliaSet juliaSet = new JuliaSet(800, 800, 1.0, 70, -0.5, 0.6);
+    private static JuliaSet juliaSet;
+
+    @BeforeAll
+    public static void init() {
+        juliaSet = new JuliaSet(800, 800, 1.0, 70, -0.5, 0.6);
+    }
+
     @Test
     public void testCalcJuliaSet_CoordinatesOutsideOfSetReturnBelowMaxIterations() {
         int outOfScopeYaxisValue = 100;
