@@ -113,3 +113,10 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Common Junk Files
+*.bin
+*.lock
+./idea/*.xml
+./idea/*.iml
+.idea/sonarlint/issuestore/*
