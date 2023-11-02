@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ch.tbz.menu.MenuPanelTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-11-02T10:27:09" hostname="LAPTOP-EKHFH9QK" time="0.361">
+  <properties/>
+  <testcase name="testsComponents_RendersExitAndSave()" classname="ch.tbz.menu.MenuPanelTest" time="0.143"/>
+  <testcase name="testsComponents_RendersFractalButton()" classname="ch.tbz.menu.MenuPanelTest" time="0.094"/>
+  <testcase name="testFractalButton_NavigatesToFractalMenu()" classname="ch.tbz.menu.MenuPanelTest" time="0.121"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
