@@ -14,10 +14,21 @@ public class TokenizerTest {
         assertEquals(tokenizer.getTokens(), List.of("2", "+", "2", "+", "3"));
     }
 
-    //TODO: [sarinalusti] Implement this test, investigate
-//    @Test
-//    public void testGetVariable_ReturnsCorrectVariable() {
-//        Tokenizer tokenizer = new Tokenizer("x+3");
-//        assertEquals('x', tokenizer.getVariable());
-//    }
+    @Test
+    public void testGetTokens_ReturnsCorrectly_WithParentheses() {
+        Tokenizer tokenizer = new Tokenizer("3*(x^2+6)");
+        assertEquals(tokenizer.getTokens(), List.of("3", "*", "(", "x", "^", "2", "+", "6", ")"));
+    }
+
+    @Test
+    public void test_GetTokens_RemovesSpacesInString() {
+        Tokenizer tokenizer = new Tokenizer("2+           4");
+        assertEquals(tokenizer.getTokens(), List.of("2", "+", "4"));
+    }
+
+    @Test
+    public void testGetVariable_CanHandleNoGivenVariable() {
+        Tokenizer tokenizer = new Tokenizer("3*0.5");
+        assertEquals('\0', tokenizer.getVariable());
+    }
 }

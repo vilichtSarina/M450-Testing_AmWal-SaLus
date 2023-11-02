@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ch.tbz.graph.interpreter.InterpreterTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-11-02T10:26:49" hostname="LAPTOP-EKHFH9QK" time="0.013">
+  <properties/>
+  <testcase name="testConvertToReversePolishNotation_WithInvalidParentheses_ThrowsException()" classname="ch.tbz.graph.interpreter.InterpreterTest" time="0.011"/>
+  <testcase name="testConvertToReversePolishNotation_WithValidInput_WillInterpret()" classname="ch.tbz.graph.interpreter.InterpreterTest" time="0.001"/>
+  <system-out><![CDATA[The given function had a parentheses mismatch, is therefore not processable.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

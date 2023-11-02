@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ch.tbz.graph.interpreter.TokenizerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-11-02T10:26:49" hostname="LAPTOP-EKHFH9QK" time="0.003">
+  <properties/>
+  <testcase name="testGetVariable_CanHandleNoGivenVariable()" classname="ch.tbz.graph.interpreter.TokenizerTest" time="0.0"/>
+  <testcase name="test_GetTokens_RemovesSpacesInString()" classname="ch.tbz.graph.interpreter.TokenizerTest" time="0.0"/>
+  <testcase name="testGetTokens_ReturnsCorrectly_WithParentheses()" classname="ch.tbz.graph.interpreter.TokenizerTest" time="0.0"/>
+  <testcase name="testGetTokens()" classname="ch.tbz.graph.interpreter.TokenizerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
