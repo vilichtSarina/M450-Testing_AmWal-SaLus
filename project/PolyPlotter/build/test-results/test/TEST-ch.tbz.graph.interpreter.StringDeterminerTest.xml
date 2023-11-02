@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ch.tbz.graph.interpreter.StringDeterminerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-11-02T10:26:49" hostname="LAPTOP-EKHFH9QK" time="0.008">
+  <properties/>
+  <testcase name="testIsOperator_WithInvalidCharacter()" classname="ch.tbz.graph.interpreter.StringDeterminerTest" time="0.001"/>
+  <testcase name="testIsSeparator_WithParenthesis()" classname="ch.tbz.graph.interpreter.StringDeterminerTest" time="0.0"/>
+  <testcase name="testIsFunction_WithValidFunction()" classname="ch.tbz.graph.interpreter.StringDeterminerTest" time="0.003"/>
+  <testcase name="testIsNumerical_WhenNonNumericalValue()" classname="ch.tbz.graph.interpreter.StringDeterminerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

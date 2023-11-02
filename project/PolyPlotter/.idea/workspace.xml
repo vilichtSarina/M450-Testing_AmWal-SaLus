@@ -13,23 +13,14 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/PolyPlotter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/PolyPlotter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/PolyPlotter.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/PolyPlotter.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_10_2023_11_35__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_10_2023_11_35__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_10_2023_11_35__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_10_2023_11_35__Changes_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/932efe3a8d54912bed9e6658a45e413c7ad06f0b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/dbc46d54fa668640290b0c0ec2feb1ff54959793" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ch/tbz/fractal/FractalRendererTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/tbz/fractal/FractalRendererTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ch/tbz/fractal/set/JuliaSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/tbz/fractal/set/JuliaSetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ch/tbz/fractal/set/MandelbrotSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/tbz/fractal/set/MandelbrotSetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ch/tbz/graph/interpreter/DoubleStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/tbz/graph/interpreter/DoubleStackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ch/tbz/graph/interpreter/InterpreterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/tbz/graph/interpreter/InterpreterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ch/tbz/graph/interpreter/StringDeterminerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/tbz/graph/interpreter/StringDeterminerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ch/tbz/graph/interpreter/StringStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/tbz/graph/interpreter/StringStackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ch/tbz/graph/interpreter/TokenizerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/tbz/graph/interpreter/TokenizerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,14 +70,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Gradle.StringDeterminerTest.testIsFunction_WithValidFunction">
+}</component>
+  <component name="RunManager" selected="Gradle.TokenizerTest.testGetTokens_ReturnsCorrectly_WithParentheses">
     <configuration name="FractalMenuTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -101,52 +92,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;ch.tbz.menu.FractalMenuTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="FractalMenuTest.testFractalMenu_ContainsAllButtons" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ch.tbz.menu.FractalMenuTest.testFractalMenu_ContainsAllButtons&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="FractalMenuTest.testJuliaSetButton_NavigatesToAndDisplaysFractal" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ch.tbz.menu.FractalMenuTest.testJuliaSetButton_NavigatesToAndDisplaysFractal&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -202,13 +147,59 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="TokenizerTest.testGetTokens_ReturnsCorrectly_WithParentheses" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ch.tbz.graph.interpreter.TokenizerTest.testGetTokens_ReturnsCorrectly_WithParentheses&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TokenizerTest.testGetVariable_ReturnsCorrectVariable" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ch.tbz.graph.interpreter.TokenizerTest.testGetVariable_ReturnsCorrectVariable&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TokenizerTest.testGetTokens_ReturnsCorrectly_WithParentheses" />
+        <item itemvalue="Gradle.TokenizerTest.testGetVariable_ReturnsCorrectVariable" />
         <item itemvalue="Gradle.StringDeterminerTest.testIsFunction_WithValidFunction" />
         <item itemvalue="Gradle.FractalMenuTest" />
         <item itemvalue="Gradle.GraphPanelTest" />
-        <item itemvalue="Gradle.FractalMenuTest.testJuliaSetButton_NavigatesToAndDisplaysFractal" />
-        <item itemvalue="Gradle.FractalMenuTest.testFractalMenu_ContainsAllButtons" />
       </list>
     </recent_temporary>
   </component>
@@ -223,6 +214,17 @@
       <workItem from="1698869347920" duration="1441000" />
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ch/tbz/graph/interpreter/Tokenizer.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PolyPlotter$DoubleStackTest.ic" NAME="DoubleStackTest Coverage Results" MODIFIED="1698784253717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

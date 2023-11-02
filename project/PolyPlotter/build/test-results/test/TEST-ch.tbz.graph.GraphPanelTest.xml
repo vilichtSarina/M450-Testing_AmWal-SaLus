@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ch.tbz.graph.GraphPanelTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-11-02T10:26:49" hostname="LAPTOP-EKHFH9QK" time="0.554">
+  <properties/>
+  <testcase name="testGetGraph_ReturnsCorrectGraph()" classname="ch.tbz.graph.GraphPanelTest" time="0.15"/>
+  <testcase name="testRenderGraph_UsesCorrectColor()" classname="ch.tbz.graph.GraphPanelTest" time="0.181"/>
+  <testcase name="testGoBackButton_RendersAndNavigates()" classname="ch.tbz.graph.GraphPanelTest" time="0.221"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

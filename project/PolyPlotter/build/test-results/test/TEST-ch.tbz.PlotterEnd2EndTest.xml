@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ch.tbz.PlotterEnd2EndTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-01T21:17:21" hostname="LAPTOP-EKHFH9QK" time="0.615">
+<testsuite name="ch.tbz.PlotterEnd2EndTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-02T10:26:48" hostname="LAPTOP-EKHFH9QK" time="0.664">
   <properties/>
-  <testcase name="testPlottingJourney()" classname="ch.tbz.PlotterEnd2EndTest" time="0.615"/>
+  <testcase name="test_main_inputAndPlotGraph()" classname="ch.tbz.PlotterEnd2EndTest" time="0.664"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
